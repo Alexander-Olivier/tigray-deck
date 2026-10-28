@@ -306,3 +306,13 @@
 .cover .meta { display: grid; grid-template-columns: 1fr 1fr; gap: 22px 40px; border-top: 2px solid var(--ochre); padding-top: 24px; }
 .cover .meta span { display: block; font: 600 17px/1 var(--f-mono); letter-spacing: .14em; text-transform: uppercase; color: var(--ochre); margin-bottom: 9px; }
 .cover .meta b { font: 500 26px/1.2 var(--f-sans); color: var(--sand); }
+
+/* the evidence table: the column of those left outside */
+.pattern.rounds td.out { color: var(--oxide); font-weight: 600; }
+.pattern.rounds th:nth-child(3) { color: var(--oxide); border-bottom-color: var(--oxide); }
+/* the UN list: why, in one line */
+.why { font-size: 32px; max-width: 1200px; }
+.pattern.rounds { font-size: 30px; }
+.pattern.rounds th { font-size: 19px; }
+.pattern.rounds td { padding: 10px 14px; }
+.pattern.rounds td:first-child { font-size: 34px; }
