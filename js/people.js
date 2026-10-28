@@ -52,6 +52,6 @@ Object.assign(window.PEOPLE, {
   us_old:    { name: 'United States', role: 'Kagnew base, Asmara', initials: 'US', flag: 'usa', ring: 'sky' },
   olf:       { name: 'OLF', role: 'left the government, 1992', initials: 'OLF', flag: 'ola', ring: 'rose' },
   israel:    { name: 'Israel', role: 'recognised Somaliland, Dec 2025', initials: 'IL', flag: 'israel', ring: 'sky' },
-  somaliland:{ name: 'Somaliland', role: 'self-declared state, 1991', initials: 'SL', flag: 'somaliland', ring: 'gold' },
+  somaliland:{ name: 'Somaliland', role: 'de facto state since 1991', initials: 'SL', flag: 'somaliland', ring: 'gold' },
   eebc:      { name: 'Border Commission', role: '"final and binding", 2002', initials: 'EEBC', flag: 'un', ring: 'sky' }
 });

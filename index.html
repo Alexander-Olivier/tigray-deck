@@ -91,7 +91,7 @@
     <div class="vo step" data-s="4">Across the water: the <b>Red Sea</b>, about 12% of world trade.</div>
     <script type="application/json" class="scene">[
       {"reset":true,"view":"horn","frame":"right","focus":["Ethiopia","Eritrea","Djibouti","Somalia","Somaliland","Sudan","S. Sudan","Kenya","Yemen","Saudi Arabia","Egypt"],
-       "flags":[{"key":"ethiopia","at":[37.2,7.3],"big":true,"text":"Ethiopia"},{"key":"eritrea","at":[38.4,16.1],"text":"Eritrea"},{"key":"sudan","at":[32.5,13.0],"text":"Sudan"},{"key":"somalia","at":[45.6,4.5],"text":"Somalia"},{"key":"yemen","at":[46.5,15.4],"text":"Yemen"},{"key":"saudi","at":[44.5,21.5],"text":"Saudi Arabia"}]},
+       "flags":[{"key":"ethiopia","at":[37.2,7.3],"big":true,"text":"Ethiopia"},{"key":"eritrea","at":[38.4,16.1],"text":"Eritrea"},{"key":"sudan","at":[32.5,13.0],"text":"Sudan"},{"key":"somalia","at":[45.6,4.5],"text":"Somalia"},{"key":"somaliland","at":[46.9,9.6],"text":"Somaliland"},{"key":"yemen","at":[46.5,15.4],"text":"Yemen"},{"key":"saudi","at":[44.5,21.5],"text":"Saudi Arabia"}]},
       {"countries":{"Ethiopia":"fed"},"fillOpacity":0.4},
       {"countries":{"Ethiopia":"fed","Eritrea":"eri"},"markers":["assab","massawa"],"pulse":["assab","massawa"]},
       {"pulse":[],"regions":1,"regionFill":{"Tigray":"tig"},"regionOpacity":0.85,"markers":["mekelle","addis","assab","massawa"]},
@@ -652,32 +652,32 @@
   <section class="slide narrow" id="chain" data-at="17.6" data-title="The camera pulls back · the sea">
     <div class="eyebrow"><span>Part 6</span><span class="act">The sea pulls in</span></div>
     <h2>Why the sea<br>changes everything</h2>
-    <p class="lede step" data-s="1" data-u="2"><span class="k">Jan 2024</span>Ethiopia signs with <em>Somaliland</em>, a breakaway region of Somalia: sea access, maybe for recognition.</p>
+    <p class="lede step" data-s="1" data-u="2"><span class="k">Jan 2024</span>Ethiopia signs with <em>Somaliland</em>, a de facto state since 1991: sea access, maybe for recognition.</p>
     <p class="lede step" data-s="2" data-u="3"><span class="k">Oct – Dec 2024</span>Somalia, Egypt and Eritrea close ranks. Turkey mediates. Abiy drops Somaliland.</p>
     <p class="lede step" data-s="3" data-u="4"><span class="k">2025</span>So Abiy eyes <em>Assab</em>. Isaias reads a threat and allies with his old enemy, the TPLF.</p>
     <p class="lede step" data-s="4" data-u="5"><span class="k">Dec 2025</span><em>Israel</em> recognises Somaliland, to watch the Houthis across the water.</p>
     <div class="vo step" data-s="5">Tigray is one front of a <b>Red Sea contest</b>.</div>
     <script type="application/json" class="scene">[
       {"reset":true,"view":"tigray","frame":"right","year":"2026","regions":1,"regionFill":{"Tigray":"tig"},"regionOpacity":0.4},
-      {"view":"horn","year":"2024","regions":0,"regionFill":{},"countries":{"Ethiopia":"fed","Somaliland":"gold"},"fillOpacity":0.35,"focus":["Ethiopia","Eritrea","Djibouti","Somalia","Somaliland","Sudan","Yemen","Kenya"],
-       "tokens":[{"id":"abiy","at":"addis"},{"id":"somaliland","at":"hargeisa","dx":40,"dy":-20,"small":true}],"markers":["berbera"],
+      {"view":"horn","year":"2024","regions":0,"regionFill":{},"countries":{"Ethiopia":"fed","Somaliland":"flag:somaliland"},"fillOpacity":0.35,"flags":[{"key":"somaliland","at":[46.9,9.5],"big":true,"text":"Somaliland · de facto"}],"focus":["Ethiopia","Eritrea","Djibouti","Somalia","Somaliland","Sudan","Yemen","Kenya"],
+       "tokens":[{"id":"abiy","at":"addis"}],"markers":["berbera"],
        "arrows":[{"id":"sl","from":"@abiy","to":"berbera","kind":"claim","color":"fed","label":"a port","bend":-0.2}]},
-      {"arrows":[],"markers":[],"countries":{"Ethiopia":"fed","Somalia":"sky","Eritrea":"eri"},
-       "tokens":[{"id":"abiy","at":"addis"},{"id":"somaliland","at":"hargeisa","dx":40,"dy":-20,"small":true,"struck":true,"role":"dropped"},{"id":"hsm","at":"mogadishu","small":true},{"id":"isaias","at":"asmara","small":true},{"id":"sisi","at":[34.2,17.6],"small":true}],
+      {"arrows":[],"markers":[],"labels":[{"text":"deal dropped","at":[45.4,8.7],"color":"oxide"}],"countries":{"Ethiopia":"fed","Somalia":"sky","Eritrea":"eri","Somaliland":"flag:somaliland"},
+       "tokens":[{"id":"abiy","at":"addis"},{"id":"hsm","at":"mogadishu","small":true},{"id":"isaias","at":"asmara","small":true},{"id":"sisi","at":[34.2,17.6],"small":true}],
        "links":[{"a":"sisi","b":"isaias","kind":"ally"},{"a":"hsm","b":"isaias","kind":"ally","bend":0.25}]},
-      {"year":"2025","links":[{"a":"abiy","b":"isaias","kind":"enemy"},{"a":"isaias","b":"debretsion","kind":"ally","label":"Tsimdo","bend":0.3}],"countries":{"Ethiopia":"fed","Eritrea":"eri"},
+      {"year":"2025","flags":[],"labels":[],"links":[{"a":"abiy","b":"isaias","kind":"enemy"},{"a":"isaias","b":"debretsion","kind":"ally","label":"Tsimdo","bend":0.3}],"countries":{"Ethiopia":"fed","Eritrea":"eri"},
        "arrows":[{"id":"as","from":"@abiy","to":"assab","kind":"claim","color":"oxide","label":"Assab?","bend":-0.25}],"markers":["assab"],"pulse":["assab"],
        "tokens":[{"id":"abiy","at":"addis"},{"id":"isaias","at":"asmara","small":true},{"id":"debretsion","at":"mekelle","small":true,"dx":30}]},
       {"view":"redsea","year":"2025","pulse":[],"links":[{"a":"israel","b":"houthi","kind":"enemy","label":"watching","bend":-0.15}],"markers":["berbera"],
        "arrows":[{"id":"il","from":"@israel","to":"hargeisa","kind":"support","color":"flag:israel","label":"recognition","labelAt":0.55,"bend":0.15}],
-       "countries":{"Ethiopia":"fed","Eritrea":"eri","Somaliland":"gold"},
+       "countries":{"Ethiopia":"fed","Eritrea":"eri","Somaliland":"flag:somaliland"},"flags":[{"key":"somaliland","at":[47.3,9.9],"text":"Somaliland"}],
        "tokens":[{"id":"israel","at":"telaviv"},{"id":"houthi","at":"sanaa","small":true}]},
       {"sea":true,"year":"2026"}
     ]</script>
     <aside class="notes">
       One sentence at a time on screen; the map tells the chain.
       SAY: "Now the camera has to pull back. Why did Isaias ally with his worst enemy? Because of the sea.
-      January 2024: Ethiopia signs a memorandum with Somaliland, a region that broke away from Somalia in 1991 and that nobody recognised: a naval base and sea access, reportedly for considering recognition.
+      January 2024: Ethiopia signs a memorandum with Somaliland, a de facto state since 1991, with its own government, army, currency and elections, but claimed by Somalia and recognised by nobody: a naval base and sea access, reportedly for considering recognition.
       Somalia is furious. Egypt, already fighting Ethiopia over the Nile dam, and Eritrea close ranks with Somalia in Asmara in October 2024. Turkey, Somalia's protector, mediates the Ankara Declaration in December; Abiy quietly drops Somaliland.
       So Abiy turns to the only other coast next door: Assab, in Eritrea. For Isaias that is a threat to his state, so he allies with the TPLF to keep Ethiopia busy at home.
       And the sea pulls in more players: in December 2025 Israel becomes the first country to recognise Somaliland, analysts say to watch the Houthis right across the water.
@@ -948,7 +948,7 @@
       {"reset":true,"view":"mideast","frame":"right"},
       {"tokens":[{"id":"erdogan","at":"ankara"}],"arrows":[{"id":"tr","from":"@erdogan","to":"mogadishu","kind":"support","color":"flag:turkey","label":"base · gas · drones","labelAt":0.55,"bend":0.18}],"markers":["mogadishu"],"pulse":["mogadishu"]},
       {"tokens":[{"id":"mojtaba","at":"tehran"}],"arrows":[{"id":"ir","from":"@mojtaba","to":"sanaa","kind":"support","color":"flag:iran","label":"missiles, drones","labelAt":0.5,"bend":-0.2}],"polys":[{"id":"houthi","hatch":"hou"}],"markers":["sanaa","babelmandeb"],"pulse":["babelmandeb"]},
-      {"tokens":[{"id":"israel","at":"telaviv"}],"arrows":[{"id":"il","from":"@israel","to":"hargeisa","kind":"support","color":"flag:israel","label":"recognition","labelAt":0.45,"bend":-0.32}],"polys":[{"id":"houthi","hatch":"hou"}],"markers":["berbera","sanaa"],"pulse":[]}
+      {"tokens":[{"id":"israel","at":"telaviv"}],"arrows":[{"id":"il","from":"@israel","to":"hargeisa","kind":"support","color":"flag:israel","label":"recognition","labelAt":0.45,"bend":-0.32}],"polys":[{"id":"houthi","hatch":"hou"}],"markers":["berbera","sanaa"],"pulse":[],"countries":{"Somaliland":"flag:somaliland"},"fillOpacity":0.45,"flags":[{"key":"somaliland","at":[47.3,9.9],"text":"Somaliland"}]}
     ]</script>
     <aside class="notes">
       Three middle powers, each with an outpost.
@@ -1162,9 +1162,9 @@
 <script src="vendor/qrcode.js"></script>
 <script src="data/world.js"></script>
 <script src="data/ethiopia.js"></script>
-<script src="js/flags.js?v=1793143721"></script>
+<script src="js/flags.js?v=1793197501"></script>
 <script src="js/places.js?v=1793172579"></script>
-<script src="js/people.js?v=1793172579"></script>
+<script src="js/people.js?v=1793197542"></script>
 <script src="js/config.js?v=1793143483"></script>
 <script src="js/scene.js?v=1793188620"></script>
 <script src="js/deck2.js?v=1793179236"></script>
