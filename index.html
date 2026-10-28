@@ -1,0 +1,1165 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Tigray — A Landlocked Giant</title>
+<link rel="stylesheet" href="css/deck.css?v=1793143483">
+<link rel="stylesheet" href="css/scene.css?v=1793188620">
+</head>
+<body>
+<div id="viewport">
+<div id="stage">
+  <svg id="geo"></svg>
+  <svg id="ink"></svg>
+  <div id="layer"></div>
+  <div id="grain"></div>
+  <div id="rewind"><span>◀◀ 1889</span></div>
+
+  <!-- PROLOGUE -->
+  <section class="slide cold bottom" id="cold" data-at="0.0" data-title="Cold open · 23 Sep 2026" data-hud="off">
+    <div class="date step fade">23 September 2026</div>
+    <div class="line step">Fighting resumes in northern Ethiopia.</div>
+    <div class="line step dim">Airports in Axum, Shire and Mekelle are seized.</div>
+    <div class="line step ochre">Four years after a peace deal.</div>
+    <script type="application/json" class="scene">[
+      {"view":"oldworld","dim":0.15,"year":""},
+      {"view":"tigray","frame":"right2","regions":1,"zones":1,"regionFill":{"Tigray":"tig"},"regionOpacity":0.35,"year":"2026","markers":["mekelle","axum","shire"]},
+      {"booms":["mekelle"]},
+      {"booms":["mekelle","axum","shire"],"pulse":["mekelle","axum","shire"]},
+      {"booms":["mekelle","axum","shire",{"at":"alamata","size":0.8}],"markers":["mekelle","axum","shire","alamata"]}
+    ]</script>
+    <aside class="notes">
+      First click: say nothing, let the map fall from space onto Tigray.
+      SAY: "Twenty-third of September, this year. Fighting resumes in northern Ethiopia." (click) "The airports in Axum, Shire and Mekelle are seized." (click) "Four years after a peace deal that was supposed to end it."
+      Pause on the explosions. "This is Tigray. And this is the second war here in six years."
+    </aside>
+  </section>
+
+  <section class="slide title-slide" id="title" data-at="0.5" data-title="Title" data-hud="off">
+    <div class="geez">ትግራይ</div>
+    <h1>Tigray</h1>
+    <p class="lede">A landlocked giant, a coastal neighbour, and a region caught in between. <span class="dim">Why Ethiopia's north keeps going back to war.</span></p>
+    <div class="byline"><span data-cfg="presenter"></span><span>Case study · Seminar</span><span data-cfg="date"></span></div>
+    <script type="application/json" class="scene">[
+      {"reset":true,"view":"tigray","frame":"right","regions":1,"zones":1,"regionFill":{"Tigray":"tig"},"regionOpacity":0.55,"dim":0.1,
+       "flags":[{"key":"tigray","at":[39.0,13.75],"big":true,"text":"Tigray"}]}
+    ]</script>
+    <aside class="notes">
+      SAY: "ትግራይ, Tigray, in Ge'ez script. My seminar text is Jon Abbink's 2011 article on ethnic federalism.
+      My thesis in one sentence: the war in Tigray cannot be understood as a domestic war. Tigray sits exactly where three problems meet: a state of many nations, a giant that lost its sea, and a neighbour it does not trust.
+      So I start with the map, go back into history, come back to today, and end with the whole region."
+    </aside>
+  </section>
+
+  <section class="slide narrow" id="route" data-at="1.0" data-title="The route">
+    <div class="eyebrow"><span>Prologue</span><span class="act">The route</span></div>
+    <h2>The route</h2>
+    <div class="ulist route">
+      <div class="r"><span class="y">1</span><p><b>The map</b>: three dilemmas</p></div>
+      <div class="r"><span class="y">2</span><p><b>How we got here</b>: 1889 – 2018</p></div>
+      <div class="r"><span class="y">3</span><p><b>2018</b>: the centre moves</p></div>
+      <div class="r"><span class="y">4</span><p><b>War</b>: 2020 – 2022</p></div>
+      <div class="r"><span class="y">5</span><p><b>Pretoria</b>: who sat, who did not</p></div>
+      <div class="r"><span class="y">6</span><p><b>After Pretoria</b>: up to today</p></div>
+      <div class="r"><span class="y">7</span><p><b>The pattern</b></p></div>
+      <div class="r"><span class="y">8</span><p><b>The region</b>: who wants what</p></div>
+      <div class="r"><span class="y">9</span><p><b>Conclusions</b>: an open question</p></div>
+    </div>
+    <script type="application/json" class="scene">[
+      {"reset":true,"view":"horn","frame":"right","focus":["Ethiopia","Eritrea","Djibouti","Somalia","Somaliland","Sudan","Yemen"],"countries":{"Ethiopia":"fed","Eritrea":"eri"},"fillOpacity":0.25,"dim":0.35}
+    ]</script>
+    <aside class="notes">
+      Twenty seconds. Do not read the list; give the logic.
+      SAY: "Nine short parts. First the map and three dilemmas. Then history: how we got here. Then 2018, the war, Pretoria, and what came after, up to this month. Then I name the pattern, I widen the camera to the region, and I end with a question rather than a solution."
+    </aside>
+  </section>
+
+  <section class="slide narrow" id="board" data-at="1.4" data-title="The board">
+    <div class="eyebrow"><span>Part 1</span><span class="act">The map</span></div>
+    <h2>The Horn<br>of Africa</h2>
+    <p class="lede step"><em>Ethiopia</em>: 130 million people. No coast since 1993.</p>
+    <p class="lede step"><em>Eritrea</em>: about 3.5 million. The whole coast, with <em>Assab</em> and <em>Massawa</em>.</p>
+    <p class="lede step"><em>Tigray</em>: Ethiopia's northern region, 6 million, wedged between Eritrea and Sudan.</p>
+    <div class="vo step" data-s="4">Across the water: the <b>Red Sea</b>, about 12% of world trade.</div>
+    <script type="application/json" class="scene">[
+      {"reset":true,"view":"horn","frame":"right","focus":["Ethiopia","Eritrea","Djibouti","Somalia","Somaliland","Sudan","S. Sudan","Kenya","Yemen","Saudi Arabia","Egypt"],
+       "flags":[{"key":"ethiopia","at":[37.2,7.3],"big":true,"text":"Ethiopia"},{"key":"eritrea","at":[38.4,16.1],"text":"Eritrea"},{"key":"sudan","at":[32.5,13.0],"text":"Sudan"},{"key":"somalia","at":[45.6,4.5],"text":"Somalia"},{"key":"yemen","at":[46.5,15.4],"text":"Yemen"},{"key":"saudi","at":[44.5,21.5],"text":"Saudi Arabia"}]},
+      {"countries":{"Ethiopia":"fed"},"fillOpacity":0.4},
+      {"countries":{"Ethiopia":"fed","Eritrea":"eri"},"markers":["assab","massawa"],"pulse":["assab","massawa"]},
+      {"pulse":[],"regions":1,"regionFill":{"Tigray":"tig"},"regionOpacity":0.85,"markers":["mekelle","addis","assab","massawa"]},
+      {"sea":true,"arrows":[{"id":"trade","from":[33.0,27.5],"to":[44.2,11.9],"kind":"support","color":"sky","bend":0.08,"label":"Suez ⇄ Asia","labelAt":0.3}]}
+    ]</script>
+    <aside class="notes">
+      Three actors, one sea. Say the numbers slowly.
+      SAY: "Ethiopia: about 130 million people, the second most populous country in Africa. Since 1993 it has no coast at all.
+      Eritrea: about three and a half million, nobody knows exactly because there has never been a census. It holds the whole coast, about a thousand kilometres, with two ports: Assab in the south and Massawa in the north.
+      Tigray: Ethiopia's northern region, about six million people, wedged between Eritrea and Sudan.
+      And across the water, the Red Sea, from Suez to Bab el-Mandeb, about 12% of world trade. Remember the blue line. Every time it lights up, the sea is the reason."
+    </aside>
+  </section>
+
+  <section class="slide narrow" id="nations" data-at="2.1" data-title="Dilemma 1 · one state or many nations?" data-cycle>
+    <div class="disclaimer">Bubbles paraphrase public positions · source under each · photos: Wikimedia Commons</div>
+    <div class="eyebrow"><span>Part 1</span><span class="act">Dilemma 1</span></div>
+    <h2>One state,<br>many nations?</h2>
+    <p class="lede step"><em>Over 80 peoples</em>. Oromo ~35%, Amhara ~27%, Somali and Tigrayans ~6% each.</p>
+    <p class="lede step">Since 1991 every region is an ethnic <em>homeland</em>, with its own government and police.</p>
+    <p class="lede step">The question is old: students asked it in <em>1969</em>. Every regime answered it by force.</p>
+    <div class="vo step" data-s="4">Whoever holds the centre <b>holds the state</b>.</div>
+    <script type="application/json" class="scene">[
+      {"reset":true,"view":"ethiopia","frame":"right","regions":1,"regionOpacity":0.15,
+       "cycle":{"n":"Dilemma 1","title":"a state of many nations","on":[1],"now":1}},
+      {"regionFill":{"Tigray":"tig","Amhara":"amh","Oromia":"lichen","Somali":"sky","Afar":"gold","SNNPR":"rose","Beneshangul Gumu":"teal","Gambela":"violet"},"regionOpacity":0.55,
+       "labels":[{"text":"Oromo ~35%","at":[38.6,7.6]},{"text":"Amhara ~27%","at":[38.0,11.3]},{"text":"Somali ~6%","at":[43.8,7.0]},{"text":"Tigrayans ~6%","at":[38.9,13.8]}]},
+      {"labels":[{"text":"Tigray","at":[38.9,13.8]},{"text":"Afar","at":[40.9,12.2]},{"text":"Amhara","at":[38.0,11.3]},{"text":"Oromia","at":[38.6,7.6]},{"text":"Somali","at":[43.8,7.0]},{"text":"SNNP","at":[36.6,6.3]}]},
+      {"labels":[],"tokens":[{"id":"walleligne","at":"addis"}],
+       "bubbles":[{"who":"walleligne","text":"Ethiopia is not really one nation. It is made up of a dozen nationalities.","src":"Walleligne Makonnen, 'On the Question of Nationalities in Ethiopia', 1969 (paraphrase)","pos":"bottom","w":360}]},
+      {"bubbles":[],"tokens":[],"regionOpacity":0.75}
+    ]</script>
+    <aside class="notes">
+      Dilemma 1. Introduce the box in the corner: "we collect four conditions as we go".
+      SAY: "First dilemma: is Ethiopia one state, or a conglomerate of nations? More than eighty peoples. In the last census, 2007, the Oromo were about 35%, the Amhara about 27%, Somali and Tigrayans about 6% each.
+      Since 1991 the map follows ethnicity: each region is the homeland of one people, with its own government and its own police.
+      The question is old. In 1969 a student, Walleligne Makonnen, wrote that Ethiopia was not one nation but a dozen nationalities: 'the national question'. Every regime since answered it by force: the emperor by assimilation, the military junta by terror, the TPLF by ethnic federalism.
+      The consequence: whoever holds the centre holds the state, and the others wait, or rebel. Watch the box in the corner: this is the first of four conditions we will collect."
+    </aside>
+  </section>
+
+  <section class="slide narrow" id="landlocked" data-at="3.0" data-title="Dilemma 2 · a giant without a sea" data-cycle>
+    <div class="disclaimer">Bubbles paraphrase public positions · source under each · photos: Wikimedia Commons</div>
+    <div class="eyebrow"><span>Part 1</span><span class="act">Dilemma 2</span></div>
+    <h2>A giant<br>without a sea</h2>
+    <p class="lede step">1993: Eritrea's independence takes <em>the whole coast</em>.</p>
+    <p class="lede step">Today over <em>90%</em> of Ethiopia's trade runs through one port: <em>Djibouti</em>.</p>
+    <p class="lede step">One corridor, high fees, no leverage: the sea becomes a <em>security</em> question.</p>
+    <script type="application/json" class="scene">[
+      {"reset":true,"view":"hornN","frame":"right","countries":{"Ethiopia":"fed"},"fillOpacity":0.3,
+       "cycle":{"n":"Dilemma 2","title":"a giant without a sea","on":[1,2],"now":2}},
+      {"countries":{"Ethiopia":"fed","Eritrea":"eri"},"fillOpacity":0.35,"sea":true,"markers":["assab","massawa"],"pulse":["assab","massawa"]},
+      {"pulse":["djibouti"],"markers":["addis","djibouti","assab","massawa"],
+       "arrows":[{"id":"dj","from":"addis","to":"djibouti","kind":"support","color":"gold","width":5,"label":"90% of trade","labelAt":0.5,"bend":-0.1}]},
+      {"pulse":[],"tokens":[{"id":"abiy","at":"addis"}],
+       "bubbles":[{"who":"abiy","text":"Sea access is a legal, historical and existential question.","src":"Abiy, parliament, Oct 2025","pos":"top","w":330}]},
+      {"bubbles":[]}
+    ]</script>
+    <aside class="notes">
+      Dilemma 2, from Woldemariam (HORN Bulletin, Jan–Feb 2026), the landlocked-state lens.
+      SAY: "Second dilemma: a giant without a sea. In 1993 Eritrea became independent and took the whole coast with it.
+      Today more than 90% of Ethiopia's foreign trade goes through one port, Djibouti. Woldemariam lists what that means: high logistics costs, exposure to one single corridor, and no leverage over the fees.
+      So port access stops being a trade issue and becomes a core national security issue. Abiy says it openly: sea access is a 'legal, historical and existential' question. That is condition two in the box."
+    </aside>
+  </section>
+
+  <section class="slide narrow" id="threeways" data-at="3.7" data-title="How landlocked states think" data-cycle>
+    <div class="eyebrow"><span>Part 1</span><span class="act">How landlocked states think</span></div>
+    <h2>Three ways<br>to think</h2>
+    <div class="dossier">
+      <div class="row step"><div class="k">1 · Vulnerability</div><p>The neighbour with the port holds your <em>lifeline</em>. Every closure is a threat.</p></div>
+      <div class="row step"><div class="k">2 · Adaptation</div><p>Many partners, many ports: Djibouti, Berbera, Port Sudan, Assab.</p></div>
+      <div class="row step"><div class="k">3 · Interdependence</div><p>Shared corridors and rules, so that <em>no single neighbour</em> can close the door.</p></div>
+    </div>
+    <div class="vo step" data-s="4">Switzerland, Botswana: <b>rules</b>. Afghanistan, Armenia: <b>isolation</b>.</div>
+    <script type="application/json" class="scene">[
+      {"reset":true,"view":[[33,6],[49,20.5]],"frame":"right","countries":{"Ethiopia":"fed"},"fillOpacity":0.3,"sea":true,"markers":["addis"],
+       "cycle":{"n":"Dilemma 2","title":"how a landlocked state thinks","on":[1,2]}},
+      {"markers":["addis","djibouti"],"pulse":["djibouti"],
+       "arrows":[{"id":"dj","from":"addis","to":"djibouti","kind":"support","color":"gold","width":5,"bend":-0.1}]},
+      {"pulse":[],"markers":["addis","djibouti","berbera","portsudan","assab"],
+       "arrows":[{"id":"dj","from":"addis","to":"djibouti","kind":"support","color":"gold","width":5,"bend":-0.1},{"id":"b","from":"addis","to":"berbera","kind":"move","color":"gold","bend":0.12},{"id":"p","from":"addis","to":"portsudan","kind":"move","color":"gold","bend":-0.1},{"id":"a","from":"addis","to":"assab","kind":"claim","color":"oxide","bend":-0.18}]},
+      {"arrows":[{"id":"dj","from":"addis","to":"djibouti","kind":"support","color":"sky","width":4,"bend":-0.1},{"id":"a","from":"addis","to":"assab","kind":"support","color":"sky","width":4,"bend":-0.18},{"id":"b","from":"addis","to":"berbera","kind":"support","color":"sky","width":4,"bend":0.12}],
+       "labels":[{"text":"shared corridors?","at":[43.4,8.2],"color":"sky"}]},
+      {}
+    ]</script>
+    <aside class="notes">
+      The framework of the article: Mahdi (2021), "Security and foreign policy of landlocked states", as used by Woldemariam (2026, pp. 2–3).
+      SAY: "How does a state without a sea think? Woldemariam uses a framework by Mahdi, with three structural conditions.
+      One, vulnerability: you depend on a transit neighbour; whoever has the port holds your lifeline, so every closure feels like a threat.
+      Two, adaptation: you diversify, many partners, many ports. Ethiopia has tried Djibouti, Berbera in Somaliland, Port Sudan, Lamu in Kenya, and Assab.
+      Three, interdependence: you build shared corridors and rules, so that no single neighbour can close the door.
+      The comparisons in the article: Switzerland and Botswana made it work through institutions and interdependence. Afghanistan and Armenia show the other path: instability at home and nationalist narratives, which deepen vulnerability and isolation.
+      Keep the question for later: which path is Ethiopia on?"
+    </aside>
+  </section>
+
+  <section class="slide narrow" id="twostates" data-at="4.5" data-title="Two states, two logics">
+    <div class="eyebrow"><span>Part 1</span><span class="act">Ethiopia and Eritrea</span></div>
+    <h2>Two logics</h2>
+    <table class="vs">
+      <tr><th></th><th>Ethiopia</th><th>Eritrea</th></tr>
+      <tr class="step"><td class="k">People</td><td>130 million</td><td>about 3.5 million</td></tr>
+      <tr class="step"><td class="k">Sea</td><td>none</td><td>the whole coast</td></tr>
+      <tr class="step"><td class="k">Regime</td><td>a federation; Abiy's party dominates</td><td>one party, no national election, Isaias since 1991</td></tr>
+      <tr class="step"><td class="k">Logic</td><td>many partners, trade, integration</td><td>security first; the ports are leverage</td></tr>
+    </table>
+    <div class="vo step" data-s="5">For Ethiopia the coast is a <b>lifeline</b>. For Eritrea it is <b>leverage</b>.</div>
+    <script type="application/json" class="scene">[
+      {"reset":true,"view":"hornN","frame":"right","countries":{"Ethiopia":"fed","Eritrea":"eri"},"fillOpacity":0.15},
+      {"fillOpacity":0.4},
+      {"sea":true,"markers":["assab","massawa"],"pulse":["assab","massawa"]},
+      {"pulse":[],"tokens":[{"id":"abiy","at":"addis"},{"id":"isaias","at":"asmara"}]},
+      {"arrows":[{"id":"dj","from":"addis","to":"djibouti","kind":"support","color":"gold","bend":-0.1}],"markers":["assab","massawa","djibouti"]},
+      {"tokens":[{"id":"isaias","at":"asmara"}]}
+    ]</script>
+    <aside class="notes">
+      The asymmetry, row by row (Woldemariam 2026, pp. 4–7).
+      SAY: "Two states, two logics. People: 130 million against about three and a half. Sea: none against the whole coast.
+      Regime: Ethiopia is a federation with real bureaucracies, even if Abiy's Prosperity Party dominates. Eritrea is a one-party state; there has never been a national election; Isaias Afwerki has ruled since 1991, decisions are personal.
+      Logic: Ethiopia looks for many partners, trade and regional integration. Eritrea thinks security first; Woldemariam calls it securitised and zero-sum. Its ports are its leverage, the one card that compensates for being small. Opening them fully would also mean transparency and economic opening, a risk for the regime.
+      So: for Ethiopia the coast is a lifeline. For Eritrea it is leverage."
+    </aside>
+  </section>
+
+  <section class="slide narrow" id="mistrust" data-at="5.3" data-title="Dilemma 3 · built-in mistrust" data-cycle>
+    <div class="eyebrow"><span>Part 1</span><span class="act">Dilemma 3</span></div>
+    <h2>Built-in<br>mistrust</h2>
+    <p class="lede step"><span class="k">Asmara remembers</span>Annexation in 1962, thirty years of war, the border war of 1998.</p>
+    <p class="lede step"><span class="k">Addis fears</span>An Eritrea that arms its rebels and holds the door to the sea.</p>
+    <p class="lede step"><span class="k">The trap</span>Each side reads the other's defence as an attack.</p>
+    <div class="vo step" data-s="4">Every peace so far was made <b>between leaders, not institutions</b>.</div>
+    <script type="application/json" class="scene">[
+      {"reset":true,"view":"hornN","frame":"right","countries":{"Ethiopia":"fed","Eritrea":"eri"},"fillOpacity":0.25,
+       "tokens":[{"id":"abiy","at":"addis"},{"id":"isaias","at":"asmara"}],
+       "cycle":{"n":"Dilemma 3","title":"a neighbour it cannot trust","on":[1,2,3],"now":3}},
+      {"tokens":[{"id":"abiy","at":"addis"},{"id":"isaias","at":"asmara","glow":true}],"labels":[{"text":"1962 · 1961–91 · 1998","at":[38.4,17.2],"color":"eri"}]},
+      {"labels":[],"tokens":[{"id":"abiy","at":"addis","glow":true},{"id":"isaias","at":"asmara"}],"markers":["assab"],"pulse":["assab"],
+       "arrows":[{"id":"rb","from":"asmara","to":[38.0,12.0],"kind":"support","color":"eri","label":"rebels","labelAt":0.6,"bend":0.2}]},
+      {"arrows":[],"pulse":[],"links":[{"a":"abiy","b":"isaias","kind":"enemy","label":"mistrust"}]},
+      {}
+    ]</script>
+    <aside class="notes">
+      Dilemma 3 (Woldemariam 2026, pp. 5 and 7–8: misperception, proxy politics, historical memory).
+      SAY: "Third dilemma: a neighbour Ethiopia cannot trust, and who cannot trust Ethiopia.
+      Asmara remembers: the annexation of 1962, thirty years of war against Ethiopian regimes, and the border war of 1998 under a Tigrayan-led government.
+      Addis fears: an Eritrea that arms Ethiopian rebels, and that holds the door to the sea.
+      The trap, in the article's words: misperception. Each side reads the other's defensive moves as aggression. When Ethiopia looks for ports, Asmara sees encirclement; when Asmara builds alliances, Addis sees revisionism.
+      And every peace so far was personal, between leaders, without joint commissions or legal guarantees. That is condition three."
+    </aside>
+  </section>
+
+  <section class="slide narrow" id="hinge" data-at="6.0" data-title="Why Tigray?" data-cycle>
+    <div class="eyebrow"><span>Part 1</span><span class="act">Where Tigray fits</span></div>
+    <h2>Why<br>Tigray?</h2>
+    <p class="lede step" data-s="1" data-u="2"><span class="k">The frontier</span>The central border with Eritrea runs along Tigray: <em>Badme, Zalambessa, Irob</em>.</p>
+    <p class="lede step" data-s="2" data-u="3"><span class="k">The back door</span>Its west touches <em>Sudan</em>: farmland, refugees, guns.</p>
+    <p class="lede step" data-s="3" data-u="4"><span class="k">The army</span>The TPLF ruled Ethiopia for 27 years and still has <em>its own army</em>.</p>
+    <p class="lede step" data-s="4"><span class="k">The enemy</span>For Asmara, an armed TPLF is not a party. It is an <em>existential threat</em>.</p>
+    <div class="vo step" data-s="5">Tigray sits on <b>all three dilemmas</b> at once.</div>
+    <script type="application/json" class="scene">[
+      {"reset":true,"view":"border","frame":"right","regions":1,"zones":1,"regionFill":{"Tigray":"tig"},"regionOpacity":0.45,"countries":{"Eritrea":"eri"},"fillOpacity":0.25,
+       "cycle":{"n":"Tigray","title":"where the dilemmas meet","on":[1,2,3]}},
+      {"markers":["badme","zalambessa","irob","mekelle"],"pulse":["badme","zalambessa","irob"]},
+      {"pulse":["humera"],"markers":["humera","mekelle"],"zoneHatch":{"Western":"amh"},"labels":[{"text":"Sudan","at":[35.9,14.4],"color":"sand"}]},
+      {"pulse":[],"zoneHatch":{},"labels":[],"markers":["mekelle"],"tokens":[{"id":"tplf","at":"mekelle"}]},
+      {"tokens":[{"id":"tplf","at":"mekelle"},{"id":"isaias","at":"asmara"}],"links":[{"a":"isaias","b":"tplf","kind":"enemy","label":"existential"}]},
+      {}
+    ]</script>
+    <aside class="notes">
+      Position Tigray in the picture. One reason per click.
+      SAY: "So why does Tigray matter so much? Four reasons.
+      The frontier: the central stretch of the Ethiopia–Eritrea border runs along Tigray: Badme, Zalambessa, Irob. Every border war is fought here.
+      The back door: in the west, Tigray touches Sudan, with fertile farmland, refugee routes and, in wartime, supply routes.
+      The army: the TPLF, the Tigray People's Liberation Front, ruled all of Ethiopia for 27 years, and it still has its own army.
+      The enemy: Woldemariam writes that for Asmara the TPLF is not just a domestic Ethiopian party but an existential security threat.
+      So Tigray sits on all three dilemmas at once: who owns the state, who gets the sea, and who trusts whom. Now: how did we get here?"
+    </aside>
+  </section>
+
+  <section class="slide narrow" id="roots" data-at="6.8" data-title="1889–1896 · an empire by conquest" data-transition="rewind" data-transition-text="◀◀ 1889" data-cycle>
+    <div class="eyebrow"><span>Part 2 · How we got here</span><span class="act">1889 – 1896</span></div>
+    <h2>An empire<br>by conquest</h2>
+    <p class="lede step"><em>Menelik II</em> conquers the south, east and west. Today's borders are drawn by force.</p>
+    <p class="lede step">Italy takes the coast in 1890 and calls it <em>Eritrea</em>. Ethiopia beats Italy at <em>Adwa</em>, 1896.</p>
+    <script type="application/json" class="scene">[
+      {"reset":true,"past":true,"view":"horn","frame":"right","year":"1889","focus":["Ethiopia","Eritrea","Somalia","Somaliland","Djibouti","Sudan","Kenya"],
+       "cycle":{"n":"1890s","title":"an empire by conquest","on":[1],"now":1}},
+      {"countries":{"Ethiopia":"flag:ethiopia_empire"},"fillOpacity":0.35,"tokens":[{"id":"menelik","at":"shewa"}],"year":"1900",
+       "arrows":[{"id":"m1","from":"@menelik","to":[37.4,6.2],"kind":"attack","color":"gold","label":"south"},{"id":"m2","from":"@menelik","to":[42.6,8.3],"kind":"attack","color":"gold","label":"east","bend":-0.15},{"id":"m3","from":"@menelik","to":[35.2,8.4],"kind":"attack","color":"gold","label":"west","bend":0.15}]},
+      {"view":"hornN","year":"1896","tokens":[],"arrows":[],
+       "countries":{"Ethiopia":"flag:ethiopia_empire","Eritrea":"flag:italy"},"fillOpacity":0.45,
+       "flags":[{"key":"italy","at":[38.0,16.9],"text":"Italian Eritrea"}],"booms":["adwa"],"markers":["adwa"],"labels":[{"text":"Adwa 1896: Italy defeated","at":[40.6,13.4],"color":"gold"}],
+       "cycle":{"n":"1890s","title":"the coast becomes Italian","on":[1,2],"now":2}}
+    ]</script>
+    <aside class="notes">
+      Rewind effect. Warm, faded colours mean: we are in the past.
+      SAY: "1889. Menelik II, emperor from the central province of Shewa, conquers the south, the east and the west. The empire doubles. Today's borders are drawn by conquest, and the conquered peoples, Oromo, Somali, the peoples of the south, are ruled from an Amharic-speaking centre. That is the root of dilemma one.
+      At the same time Italy takes the coast and calls it Eritrea: the root of dilemma two. In 1896 Ethiopia crushes Italy at Adwa, which is why it was never a colony. But Eritrea lives fifty years apart, as an Italian colony, with its own identity. (Mussolini occupies Ethiopia in 1936; the British drive the Italians out in 1941.)"
+    </aside>
+  </section>
+
+  <section class="slide narrow" id="cycle1" data-at="7.4" data-title="1950 – 1962 · the UN federation" data-cycle>
+    <div class="eyebrow"><span>Part 2</span><span class="act">1950 – 1962</span></div>
+    <h2>The UN<br>draws a line</h2>
+    <p class="lede step">1950: the UN (<em>Res. 390 A</em>) federates Eritrea with Ethiopia. The emperor gets <em>his coast</em>.</p>
+    <p class="lede step">Eritreans are never asked in a vote.</p>
+    <p class="lede step">1962: the emperor annexes Eritrea. <em>The UN says nothing.</em></p>
+    <div class="vo step" data-s="4">The first <b>empty chair</b>, and the birth of the mistrust.</div>
+    <script type="application/json" class="scene">[
+      {"reset":true,"past":true,"view":"hornN","frame":"right","year":"1950","focus":["Ethiopia","Eritrea","Sudan","Djibouti","Yemen"],"countries":{"Ethiopia":"flag:ethiopia_empire"},"hatchCountries":{"Eritrea":"eri"},"fillOpacity":0.45,
+       "cycle":{"n":"1950","title":"the UN federation","on":[1]}},
+      {"tokens":[{"id":"un_old","at":[44.6,17.6]}],"labels":[{"text":"Federation","at":[38.6,16.6],"color":"eri"}],"arrows":[{"id":"fed","from":"@un_old","to":[38.4,15.6],"kind":"support","color":"sky","bend":-0.2}],"sea":true,
+       "cycle":{"n":"1950","title":"the emperor gets a coast","on":[1,2],"now":2}},
+      {"dim":0.4,"tokens":[],"arrows":[],"labels":[],"table":{"at":{"x":0.74,"y":0.6},"title":"Who decides Eritrea's future?","seats":[{"who":"un_old","label":"UN"},{"who":"haile_selassie","label":"Emperor"},{"who":"us_old","label":"US, UK"},{"empty":true,"hl":true,"label":"Eritreans"}]},
+       "cycle":{"n":"1950","title":"the first empty chair","on":[1,2,4],"now":4}},
+      {"dim":0,"table":null,"year":"1962","hatchCountries":{},"countries":{"Ethiopia":"flag:ethiopia_empire","Eritrea":"flag:ethiopia_empire"},"labels":[{"text":"Annexed","at":[38.6,16.6],"color":"oxide","cls":"big"}],
+       "tokens":[{"id":"un_old","at":[44.6,17.6],"struck":true,"role":"no reaction"},{"id":"haile_selassie","at":"addis"}],
+       "cycle":{"n":"1962","title":"annexation","on":[1,2,3,4],"now":3}},
+      {}
+    ]</script>
+    <aside class="notes">
+      Course hook: the UN's first decision on this conflict.
+      SAY: "1950: the UN General Assembly, Resolution 390 A, decides that the former Italian colony becomes an autonomous Eritrea federated with Ethiopia, with its own parliament. Emperor Haile Selassie had lobbied for exactly this: it gave his empire a coast.
+      Look at who sits at the table: the UN, the emperor, the great powers; the Americans wanted a listening base in Asmara. Eritreans never voted. The first empty chair.
+      1962: the emperor dissolves the Eritrean parliament and annexes Eritrea. The UN, which built the arrangement, says nothing. This is where Eritrean mistrust is born: all four conditions are already on the board."
+    </aside>
+  </section>
+
+  <section class="slide narrow" id="derg" data-at="8.1" data-title="1961 – 1993 · thirty years of war" data-cycle>
+    <div class="eyebrow"><span>Part 2</span><span class="act">1961 – 1993</span></div>
+    <h2>Thirty years<br>of war</h2>
+    <p class="lede step">1974: a military junta, the <em>Derg</em>, topples the emperor. Terror, famine, Soviet arms.</p>
+    <p class="lede step">Eritrean and Tigrayan guerrillas fight it: the <em>EPLF</em> and the <em>TPLF</em>.</p>
+    <p class="lede step">1991 they win. 1993: Eritrea is independent. <em>Ethiopia loses the sea.</em></p>
+    <script type="application/json" class="scene">[
+      {"reset":true,"past":true,"view":"hornN","frame":"right","year":"1961","focus":["Ethiopia","Eritrea","Sudan","Djibouti","Somalia","Yemen"],"countries":{"Ethiopia":"flag:ethiopia_empire","Eritrea":"flag:ethiopia_empire"},"fillOpacity":0.4,
+       "cycle":{"n":"1961–91","title":"thirty years of war","on":[1,2,3,4]}},
+      {"year":"1977","countries":{"Ethiopia":"flag:derg","Eritrea":"flag:derg"},
+       "tokens":[{"id":"mengistu","at":"addis","glow":true},{"id":"ussr","at":[44.5,13.0]}],
+       "arrows":[{"id":"sov","from":"@ussr","to":"@mengistu","kind":"support","color":"flag:ussr","label":"arms + Cuban troops"}]},
+      {"year":"1975–91","arrows":[],"booms":[{"at":[38.5,15.9],"size":0.8},{"at":[38.9,13.6],"size":0.7}],"hatchCountries":{"Eritrea":"eri"},"regions":1,"regionHatch":{"Tigray":"tig"},
+       "tokens":[{"id":"mengistu","at":"addis"},{"id":"eplf","at":[37.6,16.2],"small":true},{"id":"tplf","at":[38.4,13.6],"small":true}]},
+      {"year":"1993","booms":[],"hatchCountries":{},"regionHatch":{},"regions":0,"countries":{"Ethiopia":"fed","Eritrea":"eri"},
+       "tokens":[{"id":"mengistu","at":"addis","struck":true,"role":"flees 1991"},{"id":"eplf","at":[37.6,16.2],"small":true},{"id":"tplf","at":[38.4,13.6],"small":true}],
+       "flags":[{"key":"eritrea","at":[39.6,16.8],"text":"Eritrea 1993"}],"markers":["assab","massawa"],"pulse":["assab","massawa"],"sea":true,
+       "cycle":{"n":"1993","title":"the sea is gone","on":[1,2,3,4],"now":2}}
+    ]</script>
+    <aside class="notes">
+      Keep it fast: this is the bridge to 1991.
+      SAY: "Who keeps the annexation alive? Outside patrons. First the Americans, with their base in Asmara and arms for the emperor. In 1974 a military junta, the Derg, overthrows the emperor; from 1977 the Soviet Union arms Mengistu's regime, with Cuban troops. The patron changes, the war does not. Terror, and the famine of 1984.
+      Two guerrilla fronts fight the Derg: the EPLF in Eritrea, the TPLF in Tigray. They are allies, but uneasy ones; they quarrel in the 1980s over strategy and borders. Remember that: the seed of a later mistrust.
+      1991: they win. Mengistu flees. 1993: Eritreans vote 99.8% for independence, observed by the UN. Ethiopia becomes a country without a coast."
+    </aside>
+  </section>
+
+  <section class="slide narrow" id="top1991" data-at="8.7" data-title="1991 · Tigray at the top" data-cycle>
+    <div class="eyebrow"><span>Part 2</span><span class="act">1991 – 2018</span></div>
+    <h2>Tigray<br>at the top</h2>
+    <p class="lede step">The TPLF, from a region of 6%, leads the coalition that rules Ethiopia for 27 years: the <em>EPRDF</em>.</p>
+    <p class="lede step">It accepts Eritrea's independence. Ethiopia becomes <em>landlocked</em> under a Tigrayan-led government.</p>
+    <p class="lede step">It redraws the country by <em>ethnicity</em>, with a right to secede (Art. 39).</p>
+    <div class="vo step" data-s="4">Nationalists still blame the TPLF <b>for losing the sea</b>.</div>
+    <script type="application/json" class="scene">[
+      {"reset":true,"past":true,"view":"ethiopia","frame":"right","year":"1991","regions":1,"regionFill":{"Tigray":"tig"},"regionOpacity":0.5,"markers":["mekelle","addis"],
+       "cycle":{"n":"1991","title":"Tigray at the top","on":[1],"now":1}},
+      {"tokens":[{"id":"meles","at":"addis"}],"arrows":[{"id":"up","from":"mekelle","to":"@meles","kind":"move","color":"tig","label":"TPLF → Addis","labelAt":0.5,"bend":0.15}]},
+      {"arrows":[],"countries":{"Eritrea":"eri"},"fillOpacity":0.4,"markers":["mekelle","addis","assab"],"pulse":["assab"],"year":"1993",
+       "cycle":{"n":"1993","title":"a landlocked Ethiopia","on":[1,2],"now":2}},
+      {"pulse":[],"year":"1995","regionFill":{"Tigray":"tig","Amhara":"amh","Oromia":"lichen","Somali":"sky","Afar":"gold","SNNPR":"rose","Beneshangul Gumu":"teal","Gambela":"violet","Hareri":"sand","Dire Dawa":"sand","Addis Ababa":"sand"},"regionOpacity":0.55,
+       "labels":[{"text":"Tigray","at":[38.9,13.8]},{"text":"Afar","at":[40.9,12.2]},{"text":"Amhara","at":[38.0,11.3]},{"text":"Oromia","at":[38.6,7.6]},{"text":"Somali","at":[43.8,7.0]},{"text":"SNNP","at":[36.6,6.3]}],
+       "tokens":[{"id":"meles","at":"addis"},{"id":"olf","at":[37.0,8.6],"small":true,"struck":true,"role":"walks out 1992"}],
+       "cycle":{"n":"1995","title":"ethnic federalism","on":[1,2,4],"now":4}},
+      {}
+    ]</script>
+    <aside class="notes">
+      The key fact of Part 2: a minority at the top of a landlocked state.
+      SAY: "1991. The TPLF, a front from a region with about 6% of the population, leads the coalition that takes power in Addis: the EPRDF. Its leader, Meles Zenawi, rules Ethiopia until his death in 2012, and the TPLF dominates the security apparatus until 2018.
+      It accepts Eritrea's independence; the EPLF were its wartime allies. So Ethiopia becomes landlocked under a Tigrayan-led government. Ethiopian nationalists, and in 2023 Abiy himself, called giving up the coast a historic mistake.
+      And it answers the national question by redrawing the country by ethnicity: nine regions, and Article 39, the right of every 'nation, nationality and people' to secede. Empty chair again: in 1992 the Oromo Liberation Front, speaking for the largest group, walks out of the transition.
+      Ethiopia's dilemmas now have a Tigrayan face."
+    </aside>
+  </section>
+
+  <section class="slide narrow" id="trap" data-at="9.5" data-title="Abbink 2011 · the federalism trap" data-cycle>
+    <div class="eyebrow"><span>Part 2 · The seminar text</span><span class="act">Abbink 2011</span></div>
+    <h2>The federalism<br>trap</h2>
+    <div class="trap2">
+      <div class="it step" data-s="1"><h4><span>1 ·</span> Containers</h4><p class="step" data-s="1" data-u="2">Each people owns a territory. Every border becomes a prize, like Western Tigray's farmland.</p></div>
+      <div class="it step" data-s="2"><h4><span>2 ·</span> One lock</h4><p class="step" data-s="2" data-u="3">One party runs every region. Federal on paper, "more like a unitary state" (p. 602).</p></div>
+      <div class="it step" data-s="3"><h4><span>3 ·</span> A right that sleeps</h4><p class="step" data-s="3" data-u="4">Art. 39 is "vacuous" while the centre is strong (p. 605). The West pays the regime.</p></div>
+      <div class="it red step" data-s="4"><h4><span>4 ·</span> If the lock breaks?</h4><p class="step" data-s="4" data-u="5">Every container has its own government, its own police, and a right to leave.</p></div>
+    </div>
+    <div class="vo step" data-s="5">A federation that works only <b>while one party holds the key</b>.</div>
+    <script type="application/json" class="scene">[
+      {"reset":true,"past":true,"view":"ethiopia","frame":"right","regions":1,"regionFill":{"Tigray":"tig","Amhara":"amh","Oromia":"lichen","Somali":"sky","Afar":"gold","SNNPR":"rose","Beneshangul Gumu":"teal","Gambela":"violet"},"regionOpacity":0.25,"year":"2011",
+       "cycle":{"n":"Abbink","title":"the federalism trap","on":[1]}},
+      {"regionOpacity":0.6,"zones":1,"zoneHatch":{"Western":"amh"},"booms":[{"at":[42.0,8.6],"size":0.55},{"at":[34.7,8.1],"size":0.5},{"at":[37.6,6.7],"size":0.5}]},
+      {"booms":[],"zoneHatch":{},"tokens":[{"id":"eprdf","at":"addis","big":true}],
+       "arrows":[{"id":"g1","from":"@eprdf","to":[38.9,13.8],"kind":"support","color":"gold","width":3,"bend":0.1},{"id":"g2","from":"@eprdf","to":[38.0,11.4],"kind":"support","color":"gold","width":3,"bend":0.1},{"id":"g3","from":"@eprdf","to":[40.9,12.1],"kind":"support","color":"gold","width":3,"bend":-0.1},{"id":"g4","from":"@eprdf","to":[43.6,7.2],"kind":"support","color":"gold","width":3,"bend":0.1},{"id":"g5","from":"@eprdf","to":[36.6,6.4],"kind":"support","color":"gold","width":3,"bend":-0.1},{"id":"g6","from":"@eprdf","to":[35.2,10.6],"kind":"support","color":"gold","width":3,"bend":0.1}]},
+      {"arrows":[{"id":"g1","from":"@eprdf","to":[38.9,13.8],"kind":"support","color":"gold","width":3,"bend":0.1},{"id":"g2","from":"@eprdf","to":[38.0,11.4],"kind":"support","color":"gold","width":3,"bend":0.1},{"id":"g3","from":"@eprdf","to":[40.9,12.1],"kind":"support","color":"gold","width":3,"bend":-0.1},{"id":"g4","from":"@eprdf","to":[43.6,7.2],"kind":"support","color":"gold","width":3,"bend":0.1},{"id":"g5","from":"@eprdf","to":[36.6,6.4],"kind":"support","color":"gold","width":3,"bend":-0.1},{"id":"g6","from":"@eprdf","to":[35.2,10.6],"kind":"support","color":"gold","width":3,"bend":0.1},{"id":"west","from":[46.8,4.2],"to":"@eprdf","kind":"support","color":"flag:usa","label":"Western aid","labelAt":0.35,"bend":-0.15}]},
+      {"arrows":[],"tokens":[{"id":"eprdf","at":"addis","big":true}],"regionOpacity":0.75},
+      {}
+    ]</script>
+    <aside class="notes">
+      THE SEMINAR TEXT. Jon Abbink, "Ethnic-based federalism and ethnicity in Ethiopia: reassessing the experiment after 20 years", Journal of Eastern African Studies 5(4), 2011, 596–618. Written nine years before the war. Slow down.
+      1) Containers: "Ethnicity becomes territory. Every internal border is now a prize: land, budget, jobs, who counts as 'native'. Abbink counts dozens of boundary conflicts, 5,000 to 6,000 dead in twenty years (p. 605). His own example: the TPLF attached the sesame lands of Humera and Wolkait, Western Tigray, to Tigray on 'profitable economic criteria' (p. 608). Amhara nationalists call it 'our historical land'."
+      2) One lock: "Why didn't it explode? Because one party ran every container. Federal on paper, 'more like a unitary state' (p. 602), 'stronger than any previous Ethiopian state' (p. 596)."
+      3) A right that sleeps: "Article 39 is 'vacuous': you cannot use a right to leave against a centre that strong. And the West pays: Meles is a donor favourite and Washington's partner against terrorism in Somalia."
+      4) If the lock breaks? "Abbink's warning: if the party ever loses control, every container has its own government, its own police, and a constitutional right to leave."
+      Punchline: "A federation that works only while one party holds the key. In 2018, the key changes hands."
+    </aside>
+  </section>
+
+  <section class="slide narrow" id="borderwar" data-at="10.7" data-title="1998 – 2018 · brothers at war" data-cycle>
+    <div class="eyebrow"><span>Part 2</span><span class="act">1998 – 2018 · Ethiopia and Eritrea</span></div>
+    <h2>Brothers<br>at war</h2>
+    <p class="lede step" data-s="1" data-u="2"><span class="k">1998 – 2000</span>The two winners of 1991 fight over <em>Badme</em>. 70,000–100,000 dead.</p>
+    <p class="lede step" data-s="2" data-u="3"><span class="k">Why</span>Ports, trade, a new currency, and two new regimes <em>using the war at home</em>.</p>
+    <p class="lede step" data-s="3" data-u="4"><span class="k">2002</span>A "final and binding" ruling gives Badme to Eritrea. Ethiopia, and Tigray, <em>refuse</em>.</p>
+    <p class="lede step" data-s="4"><span class="k">2002 – 2018</span>UN peacekeepers squeezed out. Each side arms the other's rebels. <em>No war, no peace.</em></p>
+    <div class="vo step" data-s="5">The mistrust becomes personal: <b>Isaias against the TPLF</b>.</div>
+    <script type="application/json" class="scene">[
+      {"reset":true,"past":true,"view":"border","frame":"right","year":"1998","focus":["Ethiopia","Eritrea","Sudan","Djibouti","Yemen"],"countries":{"Ethiopia":"fed","Eritrea":"eri"},"fillOpacity":0.35,"markers":["badme"],
+       "cycle":{"n":"1998","title":"brothers at war","on":[2,3],"now":3}},
+      {"booms":["badme",{"at":[39.4,14.5],"size":0.8}],"tokens":[{"id":"meles","at":[37.3,12.6]},{"id":"isaias","at":"asmara"}],"links":[{"a":"meles","b":"isaias","kind":"enemy","label":"1998–2000"}]},
+      {"booms":[],"links":[{"a":"meles","b":"isaias","kind":"enemy"}],"markers":["badme","assab"],"pulse":["assab"],"labels":[{"text":"port fees · new currency 1997","at":[41.4,13.9],"color":"ochre","cls":"note"}]},
+      {"year":"2002","pulse":[],"labels":[],"links":[],"tokens":[{"id":"meles","at":[37.3,12.6],"glow":true},{"id":"isaias","at":"asmara"},{"id":"eebc","at":[40.9,13.6],"small":true}],
+       "arrows":[{"id":"rule","from":"@eebc","to":"badme","kind":"claim","color":"sky","label":"Badme → Eritrea","bend":-0.2}],
+       "cycle":{"n":"2002","title":"a ruling nobody enforced","on":[2,3,4],"now":4}},
+      {"year":"2002–18","arrows":[{"id":"px1","from":"asmara","to":[41.0,11.8],"kind":"support","color":"eri","label":"→ Ethiopian rebels","labelAt":0.6,"bend":-0.2},{"id":"px2","from":[37.3,12.6],"to":[37.4,15.9],"kind":"support","color":"fed","label":"→ Eritrean rebels","labelAt":0.7,"bend":0.25}],
+       "tokens":[{"id":"meles","at":[37.3,12.6]},{"id":"isaias","at":"asmara"},{"id":"un_old","at":[40.9,13.6],"small":true,"name":"UNMEE","role":"squeezed out 2008","struck":true}]},
+      {"arrows":[],"labels":[{"text":"No war, no peace","at":[38.6,14.95],"color":"ochre","cls":"big"}],"tokens":[{"id":"meles","at":[37.3,12.6]},{"id":"isaias","at":"asmara","glow":true}]}
+    ]</script>
+    <aside class="notes">
+      Gergő covers this war in detail; we only need what it did to the relationship. One sentence on screen at a time.
+      SAY: "1998: the two winners of 1991, Meles in Addis and Isaias in Asmara, go to war over a dusty border town, Badme. Between 70 and 100 thousand dead.
+      Why? Port fees in Assab, trade, Eritrea's new currency in 1997, and, as Woldemariam argues, two new regimes using the conflict at home: diversionary politics after the fall of the Derg.
+      2002: after the Algiers peace, an international commission rules, 'final and binding', that Badme is Eritrean. Ethiopia refuses. Badme is administered by Tigray, by the TPLF, and they will not hand it over: an empty chair.
+      Then sixteen years of 'no war, no peace': Eritrea squeezes out the UN mission in 2008, each side arms the other's rebels, and in 2009 the Security Council sanctions Eritrea (Res. 1907).
+      Here the mistrust becomes personal: Isaias against the TPLF. That explains 2018 and 2020."
+    </aside>
+  </section>
+
+  <section class="slide narrow" id="centre" data-at="11.5" data-title="2018 · Tigray loses the centre" data-cycle>
+    <div class="eyebrow"><span>Part 3</span><span class="act">2018 · the centre moves</span></div>
+    <h2>Tigray loses<br>the centre</h2>
+    <p class="lede step" data-s="1" data-u="2"><span class="k">2015 – 2018</span>Mass protests in <em>Oromia and Amhara</em>: together, about 60% of Ethiopians.</p>
+    <p class="lede step" data-s="2" data-u="3"><span class="k">April 2018</span>The coalition picks <em>Abiy Ahmed</em>, an Oromo. TPLF leaders retreat to Mekelle.</p>
+    <p class="lede step" data-s="3" data-u="4"><span class="k">2019</span>Abiy merges the coalition into one party. The TPLF <em>refuses to join</em>.</p>
+    <p class="lede step" data-s="4"><span class="k">But</span>Tigray keeps a strong regional force, and much of the federal army is based <em>on its soil</em>.</p>
+    <div class="vo step" data-s="5">Demoted at the centre, <b>armed at home</b>.</div>
+    <script type="application/json" class="scene">[
+      {"reset":true,"past":true,"view":"ethiopia","frame":"right","year":"2015","regions":1,"regionFill":{"Tigray":"tig","Amhara":"amh","Oromia":"lichen"},"regionOpacity":0.3,
+       "cycle":{"n":"2018","title":"the centre moves","on":[1],"now":1}},
+      {"regionOpacity":0.6,"booms":[{"at":[38.4,8.2],"size":0.6},{"at":[37.6,11.6],"size":0.6}],"labels":[{"text":"Oromia","at":[38.6,7.2]},{"text":"Amhara","at":[38.0,11.0]}]},
+      {"year":"2018","booms":[],"labels":[],"markers":["mekelle","addis"],"tokens":[{"id":"abiy","at":"addis"},{"id":"debretsion","at":"mekelle","dx":60}],
+       "arrows":[{"id":"back","from":"addis","to":"mekelle","kind":"move","color":"tig","label":"back to Mekelle","labelAt":0.55,"bend":-0.2}]},
+      {"year":"2019","arrows":[],"tokens":[{"id":"abiy","at":"addis"},{"id":"eprdf","at":[36.2,9.8],"small":true,"struck":true,"role":"dissolved 2019"},{"id":"debretsion","at":"mekelle","dx":60}],
+       "links":[{"a":"abiy","b":"debretsion","kind":"enemy","label":"refuses"}]},
+      {"tokens":[{"id":"abiy","at":"addis"},{"id":"debretsion","at":"mekelle","dx":60}],"links":[],"regionFill":{"Tigray":"oxide","Amhara":"amh","Oromia":"lichen"},"regionOpacity":0.7,
+       "flags":[{"key":"tigray","at":[39.0,14.6],"text":"own forces"}],"cycle":{"n":"2019","title":"armed at home","on":[1,4],"now":4}},
+      {}
+    ]</script>
+    <aside class="notes">
+      Part 3: demography meets geopolitics. This is the turning point of the story.
+      SAY: "From 2015, mass protests in Oromia and then Amhara. Together these two peoples are about 60% of Ethiopians, and they felt ruled by a party from a region of 6%.
+      In April 2018 the coalition gives up and picks Abiy Ahmed, an Oromo, as prime minister. He releases prisoners, invites the exiled rebels home, and puts TPLF-era security chiefs on trial for corruption and abuses. The TPLF leaders retreat to Mekelle.
+      In December 2019 Abiy merges the coalition into a single new party, the Prosperity Party. The TPLF refuses to join. Abbink's lock is broken.
+      But here is the dangerous part: Tigray keeps a strong regional special force and militia, and the federal army's Northern Command, a large part of its heavy weapons, is based in Tigray, facing Eritrea.
+      Demoted at the centre, armed at home. A region that feels pushed out, and has the means to resist."
+    </aside>
+  </section>
+
+  <section class="slide narrow" id="peace2018" data-at="12.4" data-title="2018 – 2020 · a peace against someone" data-cycle>
+    <div class="disclaimer">Bubbles paraphrase public positions · source under each · photos: Wikimedia Commons</div>
+    <div class="eyebrow"><span>Part 3</span><span class="act">2018 – 2020</span></div>
+    <h2>A peace<br>against someone</h2>
+    <p class="lede step" data-s="1">2018: Abiy makes peace with Eritrea. Nobel Prize, 2019.</p>
+    <p class="lede step" data-s="2">A deal between <em>two men</em>, against <em>one common enemy</em>: the TPLF.</p>
+    <p class="lede step" data-s="3" data-u="5">Signed in <em>Jeddah</em>, without the AU. No treaty. The ports never open.</p>
+    <p class="lede step" data-s="5">2020: Tigray votes alone. Each side calls the other <em>illegal</em>.</p>
+    <script type="application/json" class="scene">[
+      {"reset":true,"past":true,"view":"hornN","frame":"right","year":"2018","regions":1,"countries":{"Eritrea":"eri"},"fillOpacity":0.25,"regionFill":{"Tigray":"tig"},"regionOpacity":0.3,
+       "tokens":[{"id":"abiy","at":"addis"},{"id":"isaias","at":"asmara","dx":-40}],
+       "cycle":{"n":"2018","title":"a peace against someone","on":[1]}},
+      {"links":[{"a":"abiy","b":"isaias","kind":"ally","label":"Peace · Jul 2018","bend":-0.25}]},
+      {"links":[{"a":"abiy","b":"isaias","kind":"ally","bend":-0.25}],"bubbles":[{"who":"isaias","text":"Game over for the TPLF.","src":"Isaias, 20 Jun 2018 · Weldemichael 2024, p. 64–65","pos":"right","w":280,"tone":"angry"}],
+       "cycle":{"n":"2018","title":"the TPLF is the target","on":[1,3,4],"now":4}},
+      {"bubbles":[],"tokens":[{"id":"abiy","at":"addis"},{"id":"isaias","at":"asmara","dx":-40},{"id":"mbs","at":[45.2,15.6],"small":true},{"id":"mbz","at":[45.6,12.4],"small":true}],
+       "arrows":[{"id":"sa","from":"@mbs","to":"@isaias","kind":"support","color":"flag:saudi","label":"Jeddah"},{"id":"ae","from":"@mbz","to":"@abiy","kind":"support","color":"flag:uae","label":"$3 bn"}],
+       "markers":["assab","massawa"]},
+      {"arrows":[],"tokens":[{"id":"abiy","at":"addis"},{"id":"isaias","at":"asmara","dx":-40}],"labels":[{"text":"ports: never opened","at":[41.9,14.6],"color":"oxide"}],
+       "cycle":{"n":"2018","title":"no treaty, no ports","on":[1,2,3,4],"now":2}},
+      {"year":"2020","labels":[],"markers":[],"tokens":[{"id":"abiy","at":"addis"},{"id":"isaias","at":"asmara","dx":-40},{"id":"debretsion","at":"mekelle","dx":60}],
+       "links":[{"a":"abiy","b":"isaias","kind":"ally","bend":-0.25},{"a":"abiy","b":"debretsion","kind":"enemy","label":"Sep 2020 vote: void"},{"a":"isaias","b":"debretsion","kind":"enemy","bend":0.3}]}
+    ]</script>
+    <aside class="notes">
+      SAY: "2018: Abiy accepts the border ruling and makes peace with Eritrea after twenty years. Nobel Peace Prize in 2019.
+      But Isaias answers in the same speech: 'game over' for the TPLF. For Asmara, Woldemariam writes, the new leadership in Addis was the end of TPLF influence: a leadership Eritrea could finally trust. The peace has a target, and the TPLF, which actually holds Badme, has an empty chair.
+      It is personal and Gulf-made: the final signing is in Jeddah before the Saudi king, the Emirates pledge three billion dollars to Addis. Kimaita, in the same HORN issue, notes it was negotiated without the AU or IGAD. No treaty ratified by parliament, no joint commissions; the border crossings reopen and close again within months; Ethiopia's access to Assab and Massawa is never put into practice.
+      2020: elections are postponed for COVID, Tigray votes anyway; Addis declares the vote void, Mekelle declares Abiy's mandate expired. Each side calls the other illegal. All four conditions are lit."
+    </aside>
+  </section>
+
+  <section class="slide narrow" id="war2020" data-at="13.3" data-title="War 2020 – 2022" data-cycle>
+    <div class="eyebrow"><span>Part 4 · War</span><span class="act">Nov 2020 – Nov 2022</span></div>
+    <h2>Two years,<br>600,000 dead</h2>
+    <p class="lede step">Addis, <em>Eritrea</em> and <em>Amhara forces</em> against Tigray. A siege and famine.</p>
+    <p class="lede step">UN investigators: <em>starvation used as a weapon</em>. Foreign drones (reported) turn the tide.</p>
+    <div class="vo step" data-s="3">Eritrea fights inside Ethiopia: <b>the mistrust becomes a front line</b>.</div>
+    <script type="application/json" class="scene">[
+      {"reset":true,"past":true,"view":"north","frame":"right","regions":1,"zones":1,"year":"2020","regionFill":{"Tigray":"tig"},"regionOpacity":0.45,"markers":["mekelle","axum","humera"],
+       "cycle":{"n":"2020–22","title":"the war","on":[1,2,3,4]}},
+      {"booms":["mekelle",{"at":"axum","size":1.0}],"arrows":[{"id":"f","from":[39.2,11.4],"to":[39.42,13.3],"kind":"attack","color":"fed","label":"Federal army"},{"id":"e","from":[38.7,15.0],"to":[38.8,14.25],"kind":"attack","color":"eri","label":"Eritrea"},{"id":"a","from":[37.5,12.7],"to":[36.95,13.7],"kind":"attack","color":"amh","label":"Amhara"}],
+       "regionHatch":{"Tigray":"fed"},"zoneHatch":{"Western":"amh"}},
+      {"view":"ethiopia","year":"2021","booms":[],"regionHatch":{},"markers":["mekelle","addis"],
+       "arrows":[{"id":"d1","from":[47.6,14.2],"to":"addis","kind":"support","color":"flag:uae","label":"UAE","labelAt":0.2,"bend":-0.1},{"id":"d2","from":[33.6,14.6],"to":"addis","kind":"support","color":"flag:turkey","label":"Turkey","labelAt":0.2,"bend":0.12},{"id":"d3","from":[47.6,9.6],"to":"addis","kind":"support","color":"flag:iran","label":"Iran","labelAt":0.2,"bend":0.1}]},
+      {"dim":0.3,"cycle":{"n":"2020–22","title":"the war","on":[1,2,3,4],"now":3}}
+    ]</script>
+    <aside class="notes">
+      One minute, no more. Do not narrate battles.
+      SAY: "November 2020: the TPLF attacks the federal Northern Command in Tigray; Addis answers with a full offensive. The federal army, Eritrea's army and Amhara forces against Tigray. A siege and famine: the UN's own investigators found starvation used as a method of war. Estimates of the dead range from 80–100,000 to about 600,000.
+      The arrows: drones from the Emirates, Turkey and Iran, reported by researchers and journalists, not officially confirmed, turned the war in late 2021. Kimaita cites exactly this as Gulf militarisation reshaping conflicts in the Horn.
+      And the key point for us: Eritrea's army fights inside Ethiopia, against the TPLF. The mistrust between Asmara and Mekelle has become a front line."
+    </aside>
+  </section>
+
+  <section class="slide vote quiz-slide" id="quiz" data-at="13.9" data-title="Hands up · the toll">
+    <div class="eyebrow"><span>Hands up</span><span class="act">A guess before we start</span></div>
+    <p class="q">How many people may have died in 2020–2022?</p>
+    <div class="opts">
+      <div class="opt"><span class="bar"></span><span class="l">A</span><span>about 10,000</span><span class="n"></span></div>
+      <div class="opt"><span class="bar"></span><span class="l">B</span><span>about 50,000</span><span class="n"></span></div>
+      <div class="opt"><span class="bar"></span><span class="l">C</span><span>about 150,000</span><span class="n"></span></div>
+      <div class="opt" data-correct><span class="bar"></span><span class="l">D</span><span>up to 600,000</span><span class="n"></span></div>
+    </div>
+    <p class="hint step">Estimates: 80,000–100,000 (Ethiopian officials) to ~600,000 (AU mediator Obasanjo; Ghent University)</p>
+    <script type="application/json" class="scene">[
+      {"reset":true,"view":"oldworld","dim":0.75}
+    ]</script>
+    <aside class="notes">
+      Hands up, count with keys 1–4 (0 resets). Click reveals the answer.
+      SAY: "Quick guess, hands up. How many people may have died in the 2020–22 war? A, B, C or D?" Count. Click.
+      "Up to 600,000, according to the AU's own mediator. Nobody knows exactly. Most of you probably never heard of this war. That is part of the story."
+    </aside>
+  </section>
+
+  <section class="slide narrow" id="pretoria" data-at="14.5" data-title="Pretoria · who sat at the table" data-cycle>
+    <div class="eyebrow"><span>Part 5 · Pretoria</span><span class="act">2 November 2022</span></div>
+    <h2>Who sat<br>at the table?</h2>
+    <p class="lede step">The African Union brokers a ceasefire: <em>Addis and the TPLF</em>.</p>
+    <p class="lede step">Empty chairs: <em>Eritrea</em> and the <em>Amhara forces</em>. Western Tigray: postponed.</p>
+    <p class="lede step">Guarantee: <em>10 AU monitors</em>, for six months.</p>
+    <script type="application/json" class="scene">[
+      {"reset":true,"past":true,"view":[[12,-37],[54,17]],"frame":"right","year":"2022","focus":["Ethiopia","Eritrea","South Africa","Kenya","Somalia"],"countries":{"South Africa":"lichen"},"fillOpacity":0.3,"markers":["pretoria","addis","mekelle"],
+       "arrows":[{"id":"p1","from":"addis","to":"pretoria","kind":"move","color":"fed","bend":0.12},{"id":"p2","from":"mekelle","to":"pretoria","kind":"move","color":"tig","bend":-0.12}],
+       "cycle":{"n":"2022","title":"Pretoria","on":[]}},
+      {"dim":0.5,"arrows":[],"table":{"at":{"x":0.76,"y":0.5},"title":"Pretoria, 2 Nov 2022","seats":[{"who":"redwan","label":"Addis"},{"who":"obasanjo","label":"AU mediator"},{"who":"getachew","label":"TPLF"}]}},
+      {"table":{"at":{"x":0.76,"y":0.5},"title":"Pretoria, 2 Nov 2022","seats":[{"who":"redwan","label":"Addis"},{"who":"obasanjo","label":"AU mediator"},{"who":"getachew","label":"TPLF"},{"empty":true,"hl":true,"label":"Eritrea"},{"empty":true,"hl":true,"label":"Amhara"}]},
+       "cycle":{"n":"2022","title":"two empty chairs","on":[4],"now":4}},
+      {"table":{"at":{"x":0.76,"y":0.5},"title":"Guarantee: 10 monitors, 6 months","seats":[{"who":"redwan","label":"Addis"},{"who":"obasanjo","label":"AU mediator"},{"who":"getachew","label":"TPLF"},{"empty":true,"label":"Eritrea"},{"empty":true,"label":"Amhara"}]}}
+    ]</script>
+    <aside class="notes">
+      The empty chairs are the image of the whole talk. Let them glow.
+      SAY: "November 2022, Pretoria. The African Union's panel, Olusegun Obasanjo, Uhuru Kenyatta and Phumzile Mlambo-Ngcuka, brokers a cessation of hostilities. Two signatures: Redwan Hussien for the federal government, Getachew Reda for the TPLF. The US, the UN and IGAD attend as observers.
+      Count the chairs. Eritrea, whose army fought the whole war inside Tigray, is not at the table; the text never even names it, it only speaks of 'foreign forces'. The Amhara regional forces and Fano militias, who hold Western Tigray, are not at the table either. Western Tigray becomes 'contested areas', to be settled later under the constitution.
+      The guarantee: at most ten AU experts, for six months (Art. 11). Stedman (Lecture 6): spoilers outside an agreement are the hardest to manage. Pretoria left two outside."
+    </aside>
+  </section>
+
+  <section class="slide narrow" id="deal" data-at="15.3" data-title="Pretoria · who got what">
+    <div class="eyebrow"><span>Part 5</span><span class="act">Who got what</span></div>
+    <h2>Who got<br>what?</h2>
+    <div class="dossier">
+      <div class="row step"><div class="k">Addis</div><p>The TPLF disarmed, the army back in Mekelle, federal authority restored. <em>Most of what it wanted.</em></p></div>
+      <div class="row step"><div class="k">TPLF</div><p>Survival, the siege lifted, an interim government, off the terror list (2023). <em>Paid with its heavy weapons.</em></p></div>
+      <div class="row step"><div class="k">Postponed</div><p>Western Tigray. The Eritrean troops. Justice for war crimes.</p></div>
+    </div>
+    <script type="application/json" class="scene">[
+      {"reset":true,"past":true,"view":"tigray","frame":"right","year":"2022","regions":1,"zones":1,"regionFill":{"Tigray":"tig"},"regionOpacity":0.35,"markers":["mekelle","axum","shire"]},
+      {"tokens":[{"id":"redwan","at":[39.9,12.5],"small":true}],"arrows":[{"id":"in","from":[39.6,12.3],"to":"mekelle","kind":"move","color":"fed","label":"federal army","bend":0.1}],"markers":[{"at":"mekelle","color":"fed"},{"at":"axum","color":"fed"},{"at":"shire","color":"fed"}]},
+      {"arrows":[],"tokens":[{"id":"getachew","at":"mekelle","dx":60}],"labels":[{"text":"interim government, 2023","at":[39.6,13.95],"color":"tig","cls":"note"}],"markers":["mekelle"]},
+      {"labels":[],"tokens":[],"zoneHatch":{"Western":"amh"},"pockets":[{"id":"pb","at":"badme","r":0.14,"hatch":"eri"},{"id":"pz","at":"zalambessa","r":0.12,"hatch":"eri"},{"id":"pi","at":"irob","r":0.13,"hatch":"eri"}],"markers":["mekelle","badme","zalambessa","humera"],
+       "legend":[{"hatch":"eri","text":"held by Eritrea"},{"hatch":"amh","text":"held by Amhara"}],"legendPos":"bl"}
+    ]</script>
+    <aside class="notes">
+      Interests and gains, plainly.
+      SAY: "Who got what? Addis wanted the TPLF disarmed and its authority back, and it got most of it: the federal army returned to Mekelle and the airports, the TPLF handed over its heavy weapons in January 2023 and accepted the constitution.
+      The TPLF wanted to survive, and it did: the siege was lifted, banks, power and phones came back, an interim regional administration was set up in March 2023 with Getachew Reda as president, and parliament removed the TPLF from the terror list. The price: its heavy weapons.
+      The AU got a success for 'African solutions to African problems', without the means to enforce it.
+      And three things were postponed: Western Tigray, the Eritrean troops who never fully left, and accountability for war crimes. Every postponed question has an army behind it."
+    </aside>
+  </section>
+
+  <section class="slide narrow" id="outside" data-at="16.0" data-title="Pretoria · three mistrusts" data-cycle>
+    <div class="eyebrow"><span>Part 5</span><span class="act">What Pretoria could not fix</span></div>
+    <h2>Three<br>mistrusts</h2>
+    <p class="lede step" data-s="1" data-u="2"><span class="k">Eritrea · outside</span>Its army fought the whole war, yet the text never names it. Asmara sees the TPLF survive, <em>armed</em>.</p>
+    <p class="lede step" data-s="2" data-u="3"><span class="k">Amhara · outside</span>Its forces hold Western Tigray. Pretoria calls it "contested areas", <em>for later</em>.</p>
+    <p class="lede step" data-s="3"><span class="k">Tigray · inside, but wary</span>It wants its autonomy and its own force. After the siege, it does <em>not trust Addis</em>.</p>
+    <div class="vo step" data-s="4">Eritrea will keep trying to shape <b>Mekelle and Addis</b>.</div>
+    <script type="application/json" class="scene">[
+      {"reset":true,"past":true,"view":"border","frame":"right","year":"2022","regions":1,"zones":1,"regionFill":{"Tigray":"tig"},"regionOpacity":0.35,"countries":{"Eritrea":"eri"},"fillOpacity":0.2,
+       "cycle":{"n":"2022","title":"what Pretoria left open","on":[3,4]}},
+      {"tokens":[{"id":"isaias","at":"asmara"}],"pockets":[{"id":"pb","at":"badme","r":0.14,"hatch":"eri"},{"id":"pz","at":"zalambessa","r":0.12,"hatch":"eri"},{"id":"pi","at":"irob","r":0.13,"hatch":"eri"}],"markers":["badme","zalambessa"],
+       "legend":[{"hatch":"eri","text":"held by Eritrea"}],"legendPos":"bl","cycle":{"n":"2022","title":"Eritrea outside","on":[3,4],"now":4}},
+      {"tokens":[{"id":"isaias","at":"asmara","small":true},{"id":"fano","at":"gondar"}],"zoneHatch":{"Western":"amh"},
+       "legend":[{"hatch":"eri","text":"held by Eritrea"},{"hatch":"amh","text":"held by Amhara"}]},
+      {"tokens":[{"id":"isaias","at":"asmara","small":true},{"id":"fano","at":"gondar","small":true},{"id":"debretsion","at":"mekelle","dx":60},{"id":"abiy","at":[38.6,11.8],"small":true}],
+       "links":[{"a":"debretsion","b":"abiy","kind":"enemy","label":"mistrust"}],"cycle":{"n":"2022","title":"Tigray does not trust Addis","on":[1,3,4],"now":3}},
+      {"links":[{"a":"debretsion","b":"abiy","kind":"enemy"},{"a":"isaias","b":"debretsion","kind":"ally","label":"?","bend":0.25}]}
+    ]</script>
+    <aside class="notes">
+      Three mistrusts. This is the bridge to the war of 2026.
+      SAY: "Pretoria silenced the guns, but it could not fix three mistrusts.
+      Eritrea, outside: Woldemariam writes that Asmara read its exclusion as a threat to its security and its regional standing. It had fought the war to destroy the TPLF; now the TPLF survives, armed, and Asmara has no say in Mekelle. So Eritrea will keep trying to influence both Tigray and Addis from outside.
+      The Amhara forces, outside: they hold Western Tigray, and Pretoria postponed it as 'contested areas'.
+      And Tigray itself, inside but wary: it wants to keep its de facto autonomy and its own force. After two years of siege and famine, it does not trust Addis to protect it.
+      Look at the last arrow: a question mark between Asmara and Mekelle. Hold that thought."
+    </aside>
+  </section>
+
+  <section class="slide narrow" id="unravel" data-at="16.8" data-title="2023 – 2025 · everyone switches sides" data-transition="ffwd" data-transition-text="▶▶ 2023" data-cycle>
+    <div class="eyebrow"><span>Part 6 · After Pretoria</span><span class="act">2023 – 2025</span></div>
+    <h2>Everyone<br>switches sides</h2>
+    <p class="lede step" data-s="2">2023: <em>Fano</em> turns on Addis. The <em>TPLF splits</em> in two.</p>
+    <p class="lede step" data-s="3">2025: the unthinkable. <em>Isaias and the TPLF</em> ally.</p>
+    <p class="lede step" data-s="4">Abiy wants a port. The nearest one is <em>Assab</em>.</p>
+    <div class="vo step" data-s="5">Pretoria <b>postponed rather than resolved</b> the causes. <span style="font-size:24px;opacity:.75">(RVI, 2026)</span></div>
+    <script type="application/json" class="scene">[
+      {"reset":true,"view":"north","frame":"right","year":"2023","regions":1,"zones":1,"regionFill":{"Tigray":"tig"},"regionOpacity":0.35,"markers":["mekelle","asmara"],
+       "cycle":{"n":"2023","title":"after Pretoria","on":[4]}},
+      {"zoneHatch":{"Western":"amh"},"pockets":[{"id":"pb","at":"badme","r":0.14,"hatch":"eri"},{"id":"pz","at":"zalambessa","r":0.12,"hatch":"eri"},{"id":"pi","at":"irob","r":0.13,"hatch":"eri"}],"markers":["mekelle","asmara","badme","zalambessa"],"legend":[{"hatch":"eri","text":"held by Eritrea"},{"hatch":"amh","text":"held by Amhara"}],"legendPos":"bl"},
+      {"legend":[],"tokens":[{"id":"fano","at":"gondar"},{"id":"getachew","at":"mekelle","dx":-150,"dy":40,"small":true},{"id":"debretsion","at":"mekelle","dx":110,"dy":-30}],
+       "links":[{"a":"getachew","b":"debretsion","kind":"enemy","label":"TPLF split"}],"booms":[{"at":[37.8,11.9],"size":0.7}],"year":"2024",
+       "cycle":{"n":"2023","title":"the centre is challenged again","on":[1,4],"now":1}},
+      {"year":"2025","booms":[],
+       "tokens":[{"id":"debretsion","at":"mekelle","dx":60},{"id":"isaias","at":"asmara"}],
+       "links":[{"a":"isaias","b":"debretsion","kind":"ally","label":"Tsimdo","bend":0.2}],
+       "cycle":{"n":"2025","title":"old enemies ally","on":[1,3,4],"now":3}},
+      {"view":[[36.0,10.6],[44.0,17.4]],"year":"2026","markers":["mekelle","asmara","assab"],"pulse":["assab"],
+       "tokens":[{"id":"debretsion","at":"mekelle","dx":-40},{"id":"isaias","at":"asmara"},{"id":"abiy","at":[41.4,11.5]}],"links":[{"a":"isaias","b":"debretsion","kind":"ally","label":"Tsimdo","bend":0.2},{"a":"abiy","b":"isaias","kind":"enemy"}],
+       "arrows":[{"id":"sea","from":"@abiy","to":"assab","kind":"claim","color":"oxide","label":"a port?","bend":-0.25}],"sea":true,
+       "cycle":{"n":"2025","title":"the sea, again","on":[1,2,3,4],"now":2}},
+      {}
+    ]</script>
+    <aside class="notes">
+      Fast-forward effect: colours come back, we are in the present.
+      SAY: "What happened to the empty chairs? Eritrea simply stayed: Badme, parts of Zalambessa and Irob. The Amhara kept Western Tigray.
+      In 2023 Addis dissolves the regional special forces, and the Amhara militias, Fano, turn their guns on Addis. The TPLF splits: Getachew Reda, the interim president, against the party chairman Debretsion. In 2025 Getachew is pushed out of Mekelle.
+      Then the unthinkable: Isaias and the TPLF, mortal enemies for 25 years, ally. Tigrayans call it 'Tsimdo'. Remember the question mark: Eritrea found its way back into Mekelle.
+      Meanwhile Abiy says sea access is existential. The nearest port is Assab, in Eritrea. For Isaias that is a threat to his state.
+      The Rift Valley Institute, in one line: Pretoria postponed rather than resolved the root causes."
+    </aside>
+  </section>
+
+  <section class="slide narrow" id="chain" data-at="17.6" data-title="The camera pulls back · the sea">
+    <div class="eyebrow"><span>Part 6</span><span class="act">The sea pulls in</span></div>
+    <h2>Why the sea<br>changes everything</h2>
+    <p class="lede step" data-s="1" data-u="2"><span class="k">Jan 2024</span>Ethiopia signs with <em>Somaliland</em>, a breakaway region of Somalia: sea access, maybe for recognition.</p>
+    <p class="lede step" data-s="2" data-u="3"><span class="k">Oct – Dec 2024</span>Somalia, Egypt and Eritrea close ranks. Turkey mediates. Abiy drops Somaliland.</p>
+    <p class="lede step" data-s="3" data-u="4"><span class="k">2025</span>So Abiy eyes <em>Assab</em>. Isaias reads a threat and allies with his old enemy, the TPLF.</p>
+    <p class="lede step" data-s="4" data-u="5"><span class="k">Dec 2025</span><em>Israel</em> recognises Somaliland, to watch the Houthis across the water.</p>
+    <div class="vo step" data-s="5">Tigray is one front of a <b>Red Sea contest</b>.</div>
+    <script type="application/json" class="scene">[
+      {"reset":true,"view":"tigray","frame":"right","year":"2026","regions":1,"regionFill":{"Tigray":"tig"},"regionOpacity":0.4},
+      {"view":"horn","year":"2024","regions":0,"regionFill":{},"countries":{"Ethiopia":"fed","Somaliland":"gold"},"fillOpacity":0.35,"focus":["Ethiopia","Eritrea","Djibouti","Somalia","Somaliland","Sudan","Yemen","Kenya"],
+       "tokens":[{"id":"abiy","at":"addis"},{"id":"somaliland","at":"hargeisa","dx":40,"dy":-20,"small":true}],"markers":["berbera"],
+       "arrows":[{"id":"sl","from":"@abiy","to":"berbera","kind":"claim","color":"fed","label":"a port","bend":-0.2}]},
+      {"arrows":[],"markers":[],"countries":{"Ethiopia":"fed","Somalia":"sky","Eritrea":"eri"},
+       "tokens":[{"id":"abiy","at":"addis"},{"id":"somaliland","at":"hargeisa","dx":40,"dy":-20,"small":true,"struck":true,"role":"dropped"},{"id":"hsm","at":"mogadishu","small":true},{"id":"isaias","at":"asmara","small":true},{"id":"sisi","at":[34.2,17.6],"small":true}],
+       "links":[{"a":"sisi","b":"isaias","kind":"ally"},{"a":"hsm","b":"isaias","kind":"ally","bend":0.25}]},
+      {"year":"2025","links":[{"a":"abiy","b":"isaias","kind":"enemy"},{"a":"isaias","b":"debretsion","kind":"ally","label":"Tsimdo","bend":0.3}],"countries":{"Ethiopia":"fed","Eritrea":"eri"},
+       "arrows":[{"id":"as","from":"@abiy","to":"assab","kind":"claim","color":"oxide","label":"Assab?","bend":-0.25}],"markers":["assab"],"pulse":["assab"],
+       "tokens":[{"id":"abiy","at":"addis"},{"id":"isaias","at":"asmara","small":true},{"id":"debretsion","at":"mekelle","small":true,"dx":30}]},
+      {"view":"redsea","year":"2025","pulse":[],"links":[{"a":"israel","b":"houthi","kind":"enemy","label":"watching","bend":-0.15}],"markers":["berbera"],
+       "arrows":[{"id":"il","from":"@israel","to":"hargeisa","kind":"support","color":"flag:israel","label":"recognition","labelAt":0.55,"bend":0.15}],
+       "countries":{"Ethiopia":"fed","Eritrea":"eri","Somaliland":"gold"},
+       "tokens":[{"id":"israel","at":"telaviv"},{"id":"houthi","at":"sanaa","small":true}]},
+      {"sea":true,"year":"2026"}
+    ]</script>
+    <aside class="notes">
+      One sentence at a time on screen; the map tells the chain.
+      SAY: "Now the camera has to pull back. Why did Isaias ally with his worst enemy? Because of the sea.
+      January 2024: Ethiopia signs a memorandum with Somaliland, a region that broke away from Somalia in 1991 and that nobody recognised: a naval base and sea access, reportedly for considering recognition.
+      Somalia is furious. Egypt, already fighting Ethiopia over the Nile dam, and Eritrea close ranks with Somalia in Asmara in October 2024. Turkey, Somalia's protector, mediates the Ankara Declaration in December; Abiy quietly drops Somaliland.
+      So Abiy turns to the only other coast next door: Assab, in Eritrea. For Isaias that is a threat to his state, so he allies with the TPLF to keep Ethiopia busy at home.
+      And the sea pulls in more players: in December 2025 Israel becomes the first country to recognise Somaliland, analysts say to watch the Houthis right across the water.
+      Tigray is one front of a Red Sea contest."
+    </aside>
+  </section>
+
+  <section class="slide narrow" id="now" data-at="18.4" data-title="Four armies, 2026">
+    <div class="disclaimer">Bubbles paraphrase public positions · source under each · photos: Wikimedia Commons</div>
+    <div class="eyebrow"><span>Part 6</span><span class="act">The board today</span></div>
+    <h2>Four armies</h2>
+    <p class="lede step"><em>ENDF</em>: Abiy Ahmed's federal army.</p>
+    <p class="lede step"><em>Tigrayan forces</em>: the army of the TPLF.</p>
+    <p class="lede step"><em>Eritrea</em>: Isaias Afwerki, one-party rule since 1991.</p>
+    <p class="lede step"><em>Fano</em>: Amhara militias, against Addis since 2023.</p>
+    <div class="vo step" data-s="5">And on 23 September, <b>the guns speak</b>.</div>
+    <script type="application/json" class="scene">[
+      {"reset":true,"view":"hornN","frame":"right","year":"2026","regions":1,"zones":1,"countries":{"Eritrea":"eri"},"fillOpacity":0.22,"regionFill":{"Tigray":"tig","Amhara":"amh"},"regionOpacity":0.28,"zoneHatch":{"Western":"amh"}},
+      {"tokens":[{"id":"abiy","at":"addis"}]},
+      {"tokens":[{"id":"abiy","at":"addis"},{"id":"debretsion","at":"mekelle","dx":60}],"links":[{"a":"abiy","b":"debretsion","kind":"enemy","label":"war since 23 Sep"}]},
+      {"tokens":[{"id":"abiy","at":"addis"},{"id":"debretsion","at":"mekelle","dx":60},{"id":"isaias","at":"asmara"}],
+       "links":[{"a":"abiy","b":"debretsion","kind":"enemy","label":"war since 23 Sep"},{"a":"isaias","b":"debretsion","kind":"ally","label":"Tsimdo","bend":0.25}]},
+      {"tokens":[{"id":"abiy","at":"addis"},{"id":"debretsion","at":"mekelle","dx":60},{"id":"isaias","at":"asmara"},{"id":"fano","at":"bahirdar","dx":-30}],
+       "links":[{"a":"abiy","b":"debretsion","kind":"enemy"},{"a":"isaias","b":"debretsion","kind":"ally","label":"Tsimdo","bend":0.25},{"a":"fano","b":"debretsion","kind":"ally","bend":-0.2},{"a":"fano","b":"abiy","kind":"enemy"}]},
+      {"links":[{"a":"abiy","b":"debretsion","kind":"enemy"},{"a":"isaias","b":"debretsion","kind":"ally","bend":0.25},{"a":"fano","b":"debretsion","kind":"ally","bend":-0.2},{"a":"fano","b":"abiy","kind":"enemy"}],"sea":true,"markers":["assab"],"pulse":["assab"]}
+    ]</script>
+    <aside class="notes">
+      Define the four armed actors once, clearly.
+      SAY: "Four armies. One: the ENDF, the federal army of prime minister Abiy Ahmed, in power since 2018 with his Prosperity Party.
+      Two: the Tigrayan forces, the army of the TPLF. That party ruled the whole country for 27 years; today it rules only Tigray, and since 23 September it is at war with Addis.
+      Three: Eritrea, a one-party state under Isaias Afwerki since 1991, never an election. Officially it has no troops in Tigray. In practice it now backs the TPLF, its old enemy. The alliance is called 'Tsimdo'.
+      Four: Fano, Amhara militias. With Addis against Tigray in 2020, against Addis since 2023, with the TPLF since September.
+      And behind all four: Assab, the port Abiy calls 'existential'.
+      Four armies, two camps. On the twenty-third of September, they went to war."
+    </aside>
+  </section>
+
+  <section class="slide narrow" id="war2026" data-at="19.1" data-title="Round #6 · war 2026" data-cycle>
+    <div class="disclaimer">Bubbles paraphrase public positions · source under each · photos: Wikimedia Commons</div>
+    <div class="eyebrow"><span>Part 6</span><span class="act">The war today · to 23 Oct</span></div>
+    <h2>War, again</h2>
+    <p class="lede step" data-s="1">23 Sep: TPLF, Fano and Oromo rebels ally against Addis.</p>
+    <p class="lede step" data-s="2">Oct: the army retakes the towns. Eritrean troops come and go.</p>
+    <p class="lede step" data-s="4">23 Oct: the army holds the towns, the TPLF the mountains.</p>
+    <script type="application/json" class="scene">[
+      {"reset":true,"view":"tigray","frame":"right","year":"2026","regions":1,"zones":1,"regionFill":{"Tigray":"tig"},"regionOpacity":0.4,"zoneHatch":{"Western":"amh"},"markers":["mekelle","axum","shire","adigrat","alamata"],
+       "cycle":{"n":"2026","title":"all four, again","on":[1,2,3,4]}},
+      {"booms":["mekelle","axum","shire"],"tokens":[{"id":"tplf","at":[40.0,14.3],"small":true},{"id":"fano","at":[37.3,12.5],"small":true},{"id":"ola","at":[40.05,12.5],"small":true}],
+       "links":[{"a":"tplf","b":"fano","kind":"ally"},{"a":"tplf","b":"ola","kind":"ally"}]},
+      {"links":[],"tokens":[],"booms":[],"arrows":[{"id":"f1","from":[39.6,12.25],"to":[39.47,13.4],"kind":"attack","color":"fed","label":"federal army"}],"regionHatch":{"Tigray":"fed"}},
+      {"view":"north","arrows":[{"id":"er","from":[39.3,14.85],"to":"adigrat","kind":"attack","color":"eri","label":"Eritrea"}],"booms":["adigrat"],"markers":["mekelle","axum","adigrat","asmara"],"tokens":[{"id":"isaias","at":"asmara","small":true}],"bubbles":[{"who":"isaias","text":"We have no troops in Tigray.","src":"Eritrea to the UN Security Council, 10 Oct 2026 (paraphrase)","pos":"right","w":280,"tone":"angry"}]},
+      {"view":"tigray","bubbles":[],"tokens":[],"booms":[],"arrows":[],"markers":[{"at":"mekelle","color":"fed"},{"at":"axumL","color":"fed"},{"at":"adwa","color":"fed"},{"at":"shire","color":"fed"},{"at":"adigrat","color":"fed"},{"at":"alamata","color":"fed"}],
+       "legend":[{"color":"fed","text":"army holds the towns"},{"hatch":"fed","text":"contested countryside"}],"legendPos":"bl"}
+    ]</script>
+    <aside class="notes">
+      SAY: "Look at the box: all four conditions were in place before the first shot.
+      23 September: the TPLF, Fano and the Oromo Liberation Army ally against Addis and seize the airports. In October the federal army, with anti-TPLF Tigrayans, retakes Mekelle, Adwa and Axum. Eritrean troops are seen in Adigrat, hit by drones, pull back; Eritrea tells the Security Council it was never there.
+      As of 23 October, the last verified reports: the army holds the towns, the Tigrayan forces the mountains. 'Tigray is still at war.'"
+    </aside>
+  </section>
+
+  <section class="slide narrow" id="pattern" data-at="19.8" data-title="The pattern · four conditions" data-cycle>
+    <div class="eyebrow"><span>Part 7</span><span class="act">The pattern</span></div>
+    <h2 style="font-size:100px">Four conditions,<br>every time</h2>
+    <div class="trap2">
+      <div class="it step" data-s="1"><h4><span>1 ·</span> Many nations</h4><p class="step" data-s="1" data-u="2">The state belongs to whoever holds the centre. When the centre moves, a region rearms.</p></div>
+      <div class="it step" data-s="2"><h4><span>2 ·</span> No sea</h4><p class="step" data-s="2" data-u="3">A landlocked giant beside a small coastal state. Every border is also a road to the sea.</p></div>
+      <div class="it step" data-s="3"><h4><span>3 ·</span> Mistrust</h4><p class="step" data-s="3" data-u="4">Asmara and Addis read each other's defence as attack, and back each other's rebels.</p></div>
+      <div class="it red step" data-s="4"><h4><span>4 ·</span> Empty chairs</h4><p class="step" data-s="4" data-u="5">Every deal leaves outside an armed actor who shapes the battlefield.</p></div>
+    </div>
+    <div class="vo step" data-s="5">Fertile ground: <b>each peace prepares the next war</b>.</div>
+    <script type="application/json" class="scene">[
+      {"reset":true,"view":"hornN","frame":"right","regions":1,"countries":{"Eritrea":"eri"},"fillOpacity":0.2,"regionFill":{"Tigray":"tig"},"regionOpacity":0.3,"dim":0.3,
+       "cycle":{"n":"The pattern","title":"four conditions","on":[]}},
+      {"regionFill":{"Tigray":"tig","Amhara":"amh","Oromia":"lichen","Somali":"sky","Afar":"gold","SNNPR":"rose","Beneshangul Gumu":"teal","Gambela":"violet"},"regionOpacity":0.5,
+       "cycle":{"n":"The pattern","title":"four conditions","on":[1],"now":1}},
+      {"sea":true,"markers":["assab","djibouti"],"pulse":["assab"],"cycle":{"n":"The pattern","title":"four conditions","on":[1,2],"now":2}},
+      {"pulse":[],"tokens":[{"id":"abiy","at":"addis"},{"id":"isaias","at":"asmara"}],"links":[{"a":"abiy","b":"isaias","kind":"enemy"}],
+       "cycle":{"n":"The pattern","title":"four conditions","on":[1,2,3],"now":3}},
+      {"tokens":[],"links":[],"markers":[],"pulse":[],"dim":0.5,"table":{"at":{"x":0.75,"y":0.52},"title":"Every deal since 1950","seats":[{"who":"abiy","label":"Addis"},{"who":"debretsion","label":"TPLF"},{"empty":true,"hl":true,"label":"Eritrea"},{"empty":true,"hl":true,"label":"Amhara"}]},
+       "cycle":{"n":"The pattern","title":"four conditions","on":[1,2,3,4],"now":4}},
+      {"table":null,"dim":0.4}
+    ]</script>
+    <aside class="notes">
+      THE PATTERN. This is the point of the talk; one condition per click.
+      SAY: "So here is the pattern. Four conditions, present before every war.
+      One, many nations: the state belongs to whoever holds the centre: Menelik's Shewa, the Derg, the TPLF, now Abiy's Prosperity Party. When the centre moves, a region rearms: Eritrea in 1961, Tigray in 2020, Amhara in 2023.
+      Two, no sea: a landlocked giant next to a small coastal state. Every border question is also a road to the sea: 1950, 1998, 2018, and Assab today.
+      Three, mistrust: Asmara and Addis read each other's defence as attack, and back each other's rebels: in the 2000s, in 2020, and again now.
+      Four, empty chairs: every deal leaves outside an armed actor who shapes the battlefield: Eritreans in 1950, the Oromo front in 1991, Tigray over Badme in 2002, the TPLF in 2018, Eritrea and the Amhara in 2022.
+      Together they make fertile ground: each peace prepares the next war."
+    </aside>
+  </section>
+
+  <section class="slide scrim" id="rounds" data-at="20.8" data-title="The evidence · five deals">
+    <div class="eyebrow"><span>Part 7</span><span class="act">The evidence</span></div>
+    <h2 style="font-size:100px">Five deals.<br>Five empty chairs.</h2>
+    <table class="pattern">
+      <tr><th>Year</th><th>The deal</th><th>Left outside</th><th>The sea</th><th>What followed</th></tr>
+      <tr class="step"><td>1950</td><td>UN federation</td><td>Eritreans</td><td>the emperor's coast</td><td class="w">war 1961–91</td></tr>
+      <tr class="step"><td>1991</td><td>ethnic federation</td><td>the Oromo front</td><td>coast given up</td><td class="w">rupture 2018–19</td></tr>
+      <tr class="step"><td>2000</td><td>border ruling</td><td>Tigray (Badme)</td><td>Assab closed</td><td class="w">no war, no peace</td></tr>
+      <tr class="step"><td>2018</td><td>Nobel peace</td><td>the TPLF</td><td>ports never opened</td><td class="w">war 2020–22</td></tr>
+      <tr class="step"><td>2022</td><td>Pretoria</td><td>Eritrea, Amhara</td><td>Assab claimed</td><td class="w">war 2026</td></tr>
+    </table>
+    <script type="application/json" class="scene">[
+      {"reset":true,"view":"ethiopia","frame":"right","regions":1,"regionFill":{"Tigray":"tig"},"regionOpacity":0.4,"dim":0.85}
+    ]</script>
+    <aside class="notes">
+      The evidence for condition four, with the sea next to it. One row per click; read each row in one breath.
+      SAY: "The evidence, side by side. 1950: a UN federation, Eritreans not asked, the emperor gets his coast, thirty years of war. 1991: an ethnic federation, the Oromo front walks out, the coast is given up, rupture in 2018. 2000: a border ruling, Tigray refuses Badme, Assab closed to Ethiopia, no war no peace. 2018: a Nobel peace against the TPLF, ports never opened, war. 2022: Pretoria, Eritrea and the Amhara outside, Abiy claims Assab, war again.
+      Five deals. Five empty chairs. Every time, the sea is in the background. Now let's widen the camera to the whole region."
+    </aside>
+  </section>
+
+  <section class="slide narrow" id="door" data-at="21.5" data-title="One narrow door · why the world cares">
+    <div class="eyebrow"><span>Part 8 · The region</span><span class="act">Why the world cares</span></div>
+    <h2>One narrow<br>door</h2>
+    <p class="lede step" data-s="1">Bab el-Mandeb: <em>30 km wide</em>. About 12% of world trade passes here.</p>
+    <p class="lede step" data-s="2">Since 2023 ships flee the Houthis round Africa: <em>+10 to 14 days</em>. Suez revenue: $10 bn → $4 bn.</p>
+    <p class="lede step" data-s="3">Since Feb 2026 Hormuz is shut. The Red Sea is the Gulf's <em>last exit</em> for oil.</p>
+    <div class="vo step" data-s="4">Whoever holds this coast holds <b>a lever on the world economy</b>.</div>
+    <script type="application/json" class="scene">[
+      {"reset":true,"view":"oldworld","frame":"right","sea":true,"markers":["babelmandeb","suez"]},
+      {"pulse":["babelmandeb"],"arrows":[{"id":"r1","from":[72,12],"to":"babelmandeb","kind":"support","color":"sky","label":"Asia","labelAt":0.25,"bend":0.08},{"id":"r2","from":"babelmandeb","to":[18,38],"kind":"support","color":"sky","label":"Suez → Europe","labelAt":0.7,"bend":-0.12}]},
+      {"view":"world","arrows":[{"id":"c1","from":[75,-2],"to":[20,-36],"kind":"move","color":"oxide","label":"round Africa: +10–14 days","labelAt":0.5,"bend":-0.15},{"id":"c2","from":[18,-36],"to":[-8,38],"kind":"move","color":"oxide","bend":-0.2}],"booms":[{"at":"babelmandeb","size":0.8}],"markers":["babelmandeb","suez"]},
+      {"view":"mideast","arrows":[{"id":"pipe","from":[49.6,25.8],"to":"yanbu","kind":"support","color":"gold","label":"oil → Yanbu","bend":0.05}],"booms":[],"labels":[{"text":"✕ Hormuz","at":[57.6,25.6],"color":"oxide","cls":"big"}],"markers":["yanbu","hormuz","babelmandeb"],"pulse":["hormuz"]},
+      {}
+    ]</script>
+    <aside class="notes">
+      The global stakes in three facts.
+      SAY: "Why does the whole world care about this coast? Bab el-Mandeb, 'the gate of tears', is about thirty kilometres wide. Roughly 12% of world trade and about a third of Asia–Europe container traffic pass through it.
+      Since late 2023 the Houthis have attacked ships; the big lines go round Africa instead: ten to fourteen extra days. Egypt's Suez revenue fell from $10.25 billion in 2023 to about $4 billion in 2024.
+      And since 28 February 2026 the war on Iran has largely shut the Strait of Hormuz. Saudi oil now leaves through pipelines to Yanbu, on the Red Sea. The Red Sea is the Gulf's last exit.
+      Whoever holds this coast holds a lever on the world economy. That is why everyone is here. Let's see what each of them really wants."
+      Sources: Suez Canal Authority via Reuters/AP, Apr 2025; EEAS (diversion 10–14 days); Il Sole 24 Ore (≈30% of Asia–Europe containers).
+    </aside>
+  </section>
+
+  <section class="slide" id="redsea" data-at="22.1" data-title="Four wars, one sea" style="padding:0">
+    <div class="disclaimer">Bubbles paraphrase public positions · source under each · photos: Wikimedia Commons</div>
+    <div class="ttl">
+      <div class="eyebrow"><span>Part 8 · The region</span><span class="act">Four wars, one sea</span></div>
+      <h2 style="font-size:88px">The Red Sea<br>is burning</h2>
+    </div>
+    <div class="panel big step" data-s="1" data-u="2" style="left:70px;top:330px"><h4>1 · Iran</h4><p>US and Israeli strikes since 28 Feb 2026. Hormuz largely shut. Gulf oil reroutes to the Red Sea.</p></div>
+    <div class="panel big red step" data-s="2" data-u="3" style="left:70px;top:330px"><h4>2 · Yemen</h4><p>The Houthis, Iran's allies, hold Yemen's whole Red Sea coast and attack Saudi shipping.</p></div>
+    <div class="panel big step" data-s="3" data-u="4" style="left:70px;top:330px"><h4>3 · Sudan</h4><p>Army vs RSF since 2023. Egypt and Saudi back the army; the RSF has UAE-linked supplies (UAE denies). Sudan is Tigray's back door.</p></div>
+    <div class="panel big red step" data-s="4" style="left:70px;top:330px"><h4>4 · Ethiopia–Eritrea</h4><p>Ties cut on 1 Oct. A landlocked giant wants a coast on a sea already at war.</p></div>
+    <script type="application/json" class="scene">[
+      {"reset":true,"view":"redsea","frame":"right","countries":{},"fillOpacity":0.55,"sea":true},
+      {"booms":[{"at":"tehran","size":1.1}],"markers":["tehran","hormuz","yanbu"],"pulse":["hormuz"],"tokens":[{"id":"mojtaba","at":"tehran","small":true}],
+       "arrows":[{"id":"pipe","from":[49.6,25.8],"to":"yanbu","kind":"support","color":"gold","label":"oil → Yanbu","bend":0.05}]},
+      {"arrows":[],"booms":[{"at":"babelmandeb","size":0.8}],"polys":[{"id":"houthi","hatch":"hou"}],"tokens":[{"id":"houthi","at":"sanaa","small":true}],"markers":["sanaa","babelmandeb"],"pulse":[],
+       "bubbles":[{"who":"houthi","text":"Navigation is safe for all, except Saudi vessels.","src":"Houthi statement, Sep 2026 (NBC)","pos":"left","w":300,"tone":"angry"}]},
+      {"view":"sudanYemen","bubbles":[],"booms":[],"countries":{"Sudan":"saf"},"fillOpacity":0.45,"polys":[{"id":"rsf","fill":"rsf","opacity":0.7}],
+       "tokens":[{"id":"burhan","at":"khartoum","small":true},{"id":"hemedti","at":"elfasher","small":true}],
+       "arrows":[{"id":"egs","from":[31.5,22.4],"to":"@burhan","kind":"support","color":"flag:egypt","label":"Egypt","bend":0.1},{"id":"uah","from":[24,21.8],"to":"@hemedti","kind":"support","color":"flag:uae","label":"UAE-linked","bend":-0.1}],
+       "markers":["khartoum","elfasher","fashaga"],"pulse":["fashaga"],"legend":[{"color":"saf","text":"Sudan army"},{"color":"rsf","text":"RSF (approx.)"}],"legendPos":"bl"},
+      {"view":"redseaS","legend":[],"polys":[{"id":"houthi","hatch":"hou"}],"arrows":[],"tokens":[{"id":"abiy","at":"addis","small":true},{"id":"isaias","at":"asmara","small":true}],
+       "links":[{"a":"abiy","b":"isaias","kind":"enemy","label":"ties cut 1 Oct"}],"markers":["assab","addis","asmara"],"pulse":["assab"],"countries":{"Sudan":"saf","Ethiopia":"fed","Eritrea":"eri"}}
+    ]</script>
+    <aside class="notes">
+      One war per click, one panel at a time. ~20 seconds each, always connect back to Ethiopia.
+      SAY: "Four wars on one sea. One: Iran. Since the US–Israeli strikes of 28 February, Ali Khamenei is dead, his son Mojtaba leads, Hormuz is largely shut.
+      Two: Yemen. The Houthis, Ansar Allah, an armed Zaydi movement ruling Sanaa since 2014 and backed by Iran, now hold Yemen's whole Red Sea coast and declared a blockade on Saudi shipping. (27 Oct: they claim a strike on Ras Tanura; Riyadh has not confirmed.)
+      Three: Sudan. Since April 2023 the army of General Burhan fights the RSF, a paramilitary force born of the Darfur Janjaweed, led by Hemedti. Egypt and Saudi Arabia back the army; a UN mission found UAE-linked networks arming the RSF; the UAE denies it. Sudan is Tigray's back door: refugees and fighters across the border, and the disputed al-Fashaga farmland Sudan retook in 2020.
+      Four: Ethiopia and Eritrea cut ties on 1 October. A landlocked giant wants a coast on a sea that is already at war."
+    </aside>
+  </section>
+
+  <section class="slide narrow" id="d-us" data-at="22.9" data-title="Dossier · United States">
+    <div class="eyebrow"><span>Part 8 · What they want</span><span class="act">1 / 7</span></div>
+    <h2>United<br>States</h2>
+    <div class="dossier">
+      <div class="row step"><div class="k">Wants</div><p>An open <em>Bab el-Mandeb</em>. With Hormuz shut by its own war on Iran, the Red Sea is the Gulf's last exit.</p></div>
+      <div class="row step"><div class="k">Tools</div><p>Its only permanent base in Africa (Djibouti), the navy, sanctions, Gulf allies.</p></div>
+      <div class="row step"><div class="k">The real line</div><p>"Territorial integrity" is the language. <em>Stability of the strait</em> is the interest.</p></div>
+    </div>
+    <script type="application/json" class="scene">[
+      {"reset":true,"view":"mideast","frame":"right","sea":true,"markers":["djibouti","babelmandeb"],"tokens":[{"id":"trump","at":{"x":0.86,"y":0.2}}]},
+      {"arrows":[{"id":"us","from":"@trump","to":"babelmandeb","kind":"support","color":"flag:usa","label":"keep it open","bend":0.15}],"labels":[{"text":"✕ Hormuz","at":[57.6,25.6],"color":"oxide","cls":"big"}],"pulse":["babelmandeb"]},
+      {"pulse":["djibouti"]},
+      {}
+    ]</script>
+    <aside class="notes">
+      Not the official line, the interest.
+      SAY: "Officially Washington asks everyone to respect 'sovereignty and territorial integrity'; that was the readout of Rubio's call with Abiy on 14 October. But that is the language, not the interest.
+      The interest is the strait. The US started the war on Iran that shut Hormuz; now the Red Sea is the Gulf's last exit, so a war on its western shore, Ethiopia against Eritrea, right next to Bab el-Mandeb, is the last thing it needs. Rubio: 'The last thing the world needs right now is another war.'
+      Its tools: Camp Lemonnier in Djibouti, its only permanent base in Africa; the navy; sanctions; and the Gulf allies it shares the region with. In early 2026 Trump even offered to mediate the Nile dam dispute."
+    </aside>
+  </section>
+
+  <section class="slide narrow" id="d-uae" data-at="23.4" data-title="Dossier · UAE">
+    <div class="eyebrow"><span>Part 8 · What they want</span><span class="act">2 / 7</span></div>
+    <h2>The<br>Emirates</h2>
+    <div class="dossier">
+      <div class="row step"><div class="k">Wants</div><p>Control of <em>ports and trade routes</em> from Aden to Berbera, farmland for food, no Islamists in power.</p></div>
+      <div class="row step"><div class="k">Tools</div><p>Port companies, cash, drones, and local proxies: the STC in Yemen, the RSF in Sudan (UAE denies).</p></div>
+      <div class="row step"><div class="k">Here</div><p>Abiy's main backer. Lost its Yemen foothold to Saudi Arabia in Dec 2025.</p></div>
+    </div>
+    <script type="application/json" class="scene">[
+      {"reset":true,"view":"mideast","frame":"right","countries":{"Ethiopia":"fed"},"fillOpacity":0.3,"tokens":[{"id":"mbz","at":"abudhabi","dx":60,"dy":30}]},
+      {"markers":["berbera","assab","aden"],"pulse":["berbera","assab"],"labels":[{"text":"base 2015–21","at":[42.4,14.0],"cls":"note","color":"gold"}]},
+      {"labels":[],"pulse":[],"markers":["berbera","assab","elfasher","mukalla"],"arrows":[{"id":"rsf","from":"@mbz","to":"elfasher","kind":"support","color":"flag:uae","label":"RSF (alleged)","labelAt":0.7,"bend":0.2}],"booms":[{"at":"mukalla","size":0.7}]},
+      {"booms":[],"arrows":[{"id":"ad","from":"@mbz","to":"addis","kind":"support","color":"flag:uae","label":"backs Abiy","labelAt":0.55,"bend":0.15}],"markers":["addis","berbera","assab"]}
+    ]</script>
+    <aside class="notes">
+      SAY: "The Emirates are the most active patron in the region. What they want: control of ports and trade routes along the whole route, from Aden to Berbera; farmland for food security; and no Islamist movements in power anywhere.
+      Their tools: port companies like DP World (Berbera), cash, drones, and local armed partners: the Southern Transitional Council in Yemen, and in Sudan the RSF, which a UN mission found was supplied through UAE-linked networks; the UAE denies it. They had a military base in Assab, in Eritrea, from 2015 to 2021 for the Yemen war.
+      Here: Abu Dhabi is Abiy's main backer: three billion dollars in 2018, drones reported in 2021, and on 25 September it condemned the TPLF offensive. But in December 2025 Saudi Arabia struck an Emirati shipment at Mukalla and the UAE had to pull its forces out of Yemen. The two Gulf giants are now rivals."
+      Kimaita (HORN Bulletin 2026) calls the Emirati strategy "the geopolitics of ports": commercial port management plus military operations to secure chokepoints from Aden to Berbera.
+      Source: Long War Journal/FDD, 31 Dec 2025.
+    </aside>
+  </section>
+
+  <section class="slide narrow" id="d-saudi" data-at="23.9" data-title="Dossier · Saudi Arabia">
+    <div class="eyebrow"><span>Part 8 · What they want</span><span class="act">3 / 7</span></div>
+    <h2>Saudi<br>Arabia</h2>
+    <div class="dossier">
+      <div class="row step"><div class="k">Wants</div><p>A Red Sea it controls: its Vision 2030 coast, and oil exports via <em>Yanbu</em> now that Hormuz is shut.</p></div>
+      <div class="row step"><div class="k">Tools</div><p>Money and mediation (Jeddah 2018; Sudan talks 2023). A club of coastal states, without Ethiopia.</p></div>
+      <div class="row step"><div class="k">Here</div><p>Broke with the UAE. Now closer to Egypt and Eritrea (an assessment).</p></div>
+    </div>
+    <script type="application/json" class="scene">[
+      {"reset":true,"view":"mideast","frame":"right","sea":true,"tokens":[{"id":"mbs","at":"riyadh","dx":40}]},
+      {"markers":["yanbu","jeddah"],"pulse":["yanbu"],"arrows":[{"id":"pipe","from":[49.6,25.8],"to":"yanbu","kind":"support","color":"gold","label":"oil → Yanbu","bend":0.05}]},
+      {"arrows":[],"pulse":[],"markers":["jeddah","yanbu"],"labels":[{"text":"Red Sea Council 2020: coastal states only","at":[37.8,17.6],"cls":"note","color":"lichen"}]},
+      {"labels":[],"tokens":[{"id":"mbs","at":"riyadh","dx":40},{"id":"mbz","at":"abudhabi","dx":60,"dy":30,"small":true},{"id":"sisi","at":"cairo","small":true}],"links":[{"a":"mbs","b":"mbz","kind":"enemy","label":"rift"},{"a":"mbs","b":"sisi","kind":"ally"}],"markers":["asmara"]}
+    ]</script>
+    <aside class="notes">
+      SAY: "Saudi Arabia wants the Red Sea to be, in practice, a Saudi lake. Its Vision 2030 giga-projects sit on the Red Sea coast, and since Hormuz closed, its oil leaves through pipelines to Yanbu. A war on the opposite shore threatens both.
+      Tools: money and mediation; it hosted the 2018 Ethiopia–Eritrea signing in Jeddah and the 2023 Jeddah talks on Sudan with the US. In 2020 it created a council of the Red Sea coastal states; landlocked Ethiopia is not a member.
+      Here: after the clash with the Emirates in Yemen in December 2025, analysts see Riyadh moving closer to Egypt and Eritrea. That is an assessment, not proven military aid."
+    </aside>
+  </section>
+
+  <section class="slide narrow" id="d-egypt" data-at="24.3" data-title="Dossier · Egypt">
+    <div class="eyebrow"><span>Part 8 · What they want</span><span class="act">4 / 7</span></div>
+    <h2>Egypt</h2>
+    <div class="dossier">
+      <div class="row step"><div class="k">Wants</div><p><em>Nile water</em>: Ethiopia's dam opened in Sept 2025. And its Suez income back: $10 bn in 2023, $4 bn in 2024.</p></div>
+      <div class="row step"><div class="k">Tools</div><p>Encircle Ethiopia: Eritrea, Somalia, Sudan's army. A joint declaration on 4 Oct 2026.</p></div>
+      <div class="row step"><div class="k">Here</div><p>Backs Asmara. Addis accuses Cairo of arming the rebels (denied).</p></div>
+    </div>
+    <script type="application/json" class="scene">[
+      {"reset":true,"view":"mideast","frame":"right","tokens":[{"id":"sisi","at":"cairo"}],"markers":["gerd","suez"]},
+      {"pulse":["gerd"],"arrows":[{"id":"nile","from":"gerd","to":"@sisi","kind":"claim","color":"sky","label":"the Nile","labelAt":0.5,"bend":0.2}]},
+      {"arrows":[{"id":"e1","from":"@sisi","to":"asmara","kind":"support","color":"flag:egypt","bend":-0.12},{"id":"e2","from":"@sisi","to":"mogadishu","kind":"support","color":"flag:egypt","bend":-0.2},{"id":"e3","from":"@sisi","to":"khartoum","kind":"support","color":"flag:egypt","bend":0.15}],"pulse":[],"markers":["gerd","asmara","mogadishu","khartoum"],"countries":{"Ethiopia":"fed"},"fillOpacity":0.35},
+      {}
+    ]</script>
+    <aside class="notes">
+      SAY: "Egypt's question is existential in a literal sense: the Nile. Ethiopia inaugurated its giant dam, the GERD, on 9 September 2025; Cairo wrote to the Security Council the same day. And Egypt has lost most of its Suez income to the Houthi crisis: from $10.25 billion in 2023 to about $4 billion in 2024.
+      Its strategy is encirclement: an axis with Eritrea, arms and troop pledges for Somalia, support for Sudan's army. On 4 October 2026, Egypt, Eritrea, Somalia and Sudan declared that 'Red Sea security belongs to the coastal states', which excludes Ethiopia by definition.
+      Addis accuses Cairo of arming the rebels; Cairo denies it and no evidence has been shown."
+    </aside>
+  </section>
+
+  <section class="slide narrow" id="d-mid" data-at="24.8" data-title="Dossier · Turkey, Iran, Israel">
+    <div class="eyebrow"><span>Part 8 · What they want</span><span class="act">5 / 7</span></div>
+    <h2>Outposts<br>on the sea</h2>
+    <div class="dossier">
+      <div class="row step"><div class="k">Turkey</div><p>A base in Mogadishu, oil and gas off Somalia, drones for many sides, the role of mediator.</p></div>
+      <div class="row step"><div class="k">Iran</div><p>The Houthis: a hand on <em>Bab el-Mandeb</em> while Hormuz burns.</p></div>
+      <div class="row step"><div class="k">Israel</div><p>Recognised Somaliland (Dec 2025): eyes on the Houthis from across the water.</p></div>
+    </div>
+    <script type="application/json" class="scene">[
+      {"reset":true,"view":"mideast","frame":"right"},
+      {"tokens":[{"id":"erdogan","at":"ankara"}],"arrows":[{"id":"tr","from":"@erdogan","to":"mogadishu","kind":"support","color":"flag:turkey","label":"base · gas · drones","labelAt":0.55,"bend":0.18}],"markers":["mogadishu"],"pulse":["mogadishu"]},
+      {"tokens":[{"id":"mojtaba","at":"tehran"}],"arrows":[{"id":"ir","from":"@mojtaba","to":"sanaa","kind":"support","color":"flag:iran","label":"missiles, drones","labelAt":0.5,"bend":-0.2}],"polys":[{"id":"houthi","hatch":"hou"}],"markers":["sanaa","babelmandeb"],"pulse":["babelmandeb"]},
+      {"tokens":[{"id":"israel","at":"telaviv"}],"arrows":[{"id":"il","from":"@israel","to":"hargeisa","kind":"support","color":"flag:israel","label":"recognition","labelAt":0.45,"bend":-0.32}],"polys":[{"id":"houthi","hatch":"hou"}],"markers":["berbera","sanaa"],"pulse":[]}
+    ]</script>
+    <aside class="notes">
+      Three middle powers, each with an outpost.
+      SAY: "Turkey: a military base in Mogadishu since 2017, an oil and gas deal with Somalia, drones sold to many sides (Ethiopia in 2021, reported), and the prestige of mediator: the Ankara Declaration of December 2024.
+      Iran: the Houthis are its hand on the second chokepoint. With Hormuz a battlefield, Bab el-Mandeb is Tehran's other lever on the world economy.
+      Israel: in December 2025 it became the first state to recognise Somaliland; analysts read it as a forward position against the Houthis. The AU, the Arab League and the EU opposed it."
+    </aside>
+  </section>
+
+  <section class="slide narrow" id="d-big" data-at="25.2" data-title="Dossier · China and Russia">
+    <div class="eyebrow"><span>Part 8 · What they want</span><span class="act">6 / 7</span></div>
+    <h2>China<br>and Russia</h2>
+    <div class="dossier">
+      <div class="row step"><div class="k">China</div><p>The Suez route for its exports to Europe, its loans repaid, its first overseas base (Djibouti, 2017).</p></div>
+      <div class="row step"><div class="k">Russia</div><p>A Red Sea port (Port Sudan deal, never ratified), arms clients, gold.</p></div>
+      <div class="row step"><div class="k">Both</div><p>A veto. "Non-interference" at the UN protects their clients, and keeps the West out.</p></div>
+    </div>
+    <script type="application/json" class="scene">[
+      {"reset":true,"view":"oldworld","frame":"right","sea":true,"markers":["djibouti","portsudan"]},
+      {"tokens":[{"id":"xi","at":"beijing","dx":-70,"dy":20}],"arrows":[{"id":"cn","from":"@xi","to":"djibouti","kind":"support","color":"flag:china","label":"base, loans","labelAt":0.6,"bend":0.12}],"pulse":["djibouti"]},
+      {"tokens":[{"id":"xi","at":"beijing","small":true,"dx":-70,"dy":20},{"id":"putin","at":"moscow"}],"arrows":[{"id":"cn","from":"@xi","to":"djibouti","kind":"support","color":"flag:china","bend":0.12},{"id":"ru","from":"@putin","to":"portsudan","kind":"support","color":"flag:russia","label":"port deal","labelAt":0.6,"bend":-0.1}],"pulse":["portsudan"]},
+      {"pulse":[],"tokens":[{"id":"xi","at":"beijing","small":true,"dx":-70,"dy":20},{"id":"putin","at":"moscow","small":true},{"id":"unsc","at":{"x":0.72,"y":0.2}}]}
+    ]</script>
+    <aside class="notes">
+      SAY: "China: Ethiopia's biggest creditor; it built the Addis–Djibouti railway and opened its first overseas military base in Djibouti in 2017. Most of its exports to Europe sail through this sea. It wants stability and repayment, not tribunals.
+      Russia: a naval base deal for Port Sudan, signed in 2020 and never ratified; Sudan's army asked to revise it in 2025. Arms clients on several sides, gold in Sudan, and an ally in Eritrea, which voted with Moscow against the UN resolution on Ukraine in 2022.
+      Both: the veto. In March 2021 China and Russia, with India, blocked even a press statement on Tigray. 'Non-interference' protects their clients and keeps Western pressure out."
+    </aside>
+  </section>
+
+  <section class="slide narrow" id="d-eu" data-at="25.7" data-title="Dossier · European Union">
+    <div class="eyebrow"><span>Part 8 · What they want</span><span class="act">7 / 7</span></div>
+    <h2>The European<br>Union</h2>
+    <div class="dossier">
+      <div class="row step"><div class="k">Wants</div><p>Its trade (<em>22% of EU imports</em> come through the Red Sea) and Gulf energy, now that Hormuz is shut.</p></div>
+      <div class="row step"><div class="k">Fears</div><p>A new refugee wave: Eritreans were among the largest groups reaching Europe in the 2010s.</p></div>
+      <div class="row step"><div class="k">Tools</div><p>Warships (<em>Aspides</em>, since 2024), aid as leverage, sanctions. Little hard power on land.</p></div>
+    </div>
+    <script type="application/json" class="scene">[
+      {"reset":true,"view":[[16,8],[62,50]],"frame":"right2","sea":true,"tokens":[{"id":"kallas","at":{"x":0.68,"y":0.17}}],"markers":["babelmandeb"]},
+      {"arrows":[{"id":"tr","from":"babelmandeb","to":"@kallas","kind":"support","color":"sky","label":"22% of imports","labelAt":0.55,"bend":-0.15}]},
+      {"arrows":[{"id":"mig","from":"asmara","to":[21.5,39.5],"kind":"move","color":"sand","label":"migration","labelAt":0.5,"bend":0.25}],"markers":["asmara"]},
+      {"arrows":[{"id":"asp","from":"@kallas","to":"babelmandeb","kind":"support","color":"flag:eu","label":"Aspides escorts","labelAt":0.55,"bend":0.2}],"markers":["babelmandeb"],"pulse":["babelmandeb"]}
+    ]</script>
+    <aside class="notes">
+      SAY: "Europe's interests are specific. Trade: according to the EU's diplomatic service, 22% of EU imports normally come through the Red Sea and Suez, and about a third of Asia–Europe containers. Energy: with Hormuz shut, Gulf oil and gas for Europe now depend on this route.
+      Migration: Eritreans, fleeing indefinite national service, were among the largest groups crossing the Mediterranean in the 2010s; a regional war means a new wave.
+      Tools: since February 2024 the EU naval operation Aspides escorts merchant ships in the Red Sea, commanded from Larissa in Greece, and Atalanta fights piracy off Somalia since 2008. Aid as leverage: in December 2020 the EU suspended €88 million of budget support to Ethiopia. And member states have their own stakes: France's base in Djibouti, Italy's old ties to Eritrea and its Mattei Plan for Africa.
+      What the EU lacks: hard power on land. It pays, it escorts, it condemns."
+    </aside>
+  </section>
+
+  <section class="slide narrow" id="profits" data-at="26.2" data-title="Who profits from the cycle">
+    <div class="eyebrow"><span>Part 8</span><span class="act">The cycle has customers</span></div>
+    <h2 style="font-size:100px">Who profits<br>from the cycle?</h2>
+    <p class="lede step"><span class="k">Arms</span>Every round sells drones and guns: UAE, Turkey, Iran (reported), Russia.</p>
+    <p class="lede step"><span class="k">Ports and land</span>Assab, Berbera, Port Sudan; farmland and gold in Sudan.</p>
+    <p class="lede step"><span class="k">Leverage</span>Egypt uses Eritrea against the dam. Isaias survives by permanent war.</p>
+    <div class="vo step" data-s="4">A political marketplace: loyalty is rented. For someone, <b>the cycle works</b>.</div>
+    <script type="application/json" class="scene">[
+      {"reset":true,"view":"redseaS","frame":"right","countries":{"Ethiopia":"fed","Eritrea":"eri"},"fillOpacity":0.3,"sea":true},
+      {"arrows":[{"id":"d1","from":[46.5,20.5],"to":"addis","kind":"support","color":"flag:uae","label":"UAE","labelAt":0.25,"bend":-0.1},{"id":"d2","from":[33.0,21.5],"to":"addis","kind":"support","color":"flag:turkey","label":"Turkey","labelAt":0.25,"bend":0.12},{"id":"d3","from":[47.5,12.5],"to":"addis","kind":"support","color":"flag:iran","label":"Iran","labelAt":0.25,"bend":0.1}]},
+      {"arrows":[],"markers":["assab","berbera","portsudan"],"pulse":["assab","berbera","portsudan"]},
+      {"pulse":[],"markers":["gerd","asmara"],"tokens":[{"id":"sisi","at":[33.4,20.6],"small":true},{"id":"isaias","at":"asmara","small":true}],"links":[{"a":"sisi","b":"isaias","kind":"ally","label":"against the dam"}]},
+      {"dim":0.35}
+    ]</script>
+    <aside class="notes">
+      This is the turn of the film: the pattern is not an accident, it is exploited.
+      SAY: "So who profits from the cycle? Arms sellers: every round sells drones and guns; in 2021 drones came from the Emirates, Turkey and Iran (reported); Russia sells to several sides.
+      Ports and land: Assab, Berbera, Port Sudan; farmland and gold in Sudan. Every war reopens the bidding.
+      Leverage: Egypt uses Eritrea to pressure Ethiopia over the dam. And Isaias's regime survives by permanent mobilisation: a country in indefinite national service needs an enemy.
+      (last click) Alex de Waal has a name for this: a political marketplace. In the Horn loyalty is rented, not owned. When the outside money moves, the alliances move. That is why Isaias was Abiy's ally in 2018 and the TPLF's ally in 2025.
+      Kimaita makes the same point about the Gulf: loyalty bought with 'petrodollar diplomacy', deals made bilaterally, around the AU and IGAD.
+      The cycle is not a failure. For someone, it works."
+    </aside>
+  </section>
+
+  <section class="slide scrim" id="unstory" data-at="26.9" data-title="The guarantor's empty chair">
+    <div class="eyebrow"><span>Part 8 · The UN lens</span><span class="act">The course question</span></div>
+    <h2 style="font-size:92px">Present at every stage,<br>decisive at none</h2>
+    <div class="ulist">
+      <div class="r step" data-s="2"><span class="y">1950</span><p><b>Draws the line</b>: the Eritrean federation</p></div>
+      <div class="r bad step" data-s="3"><span class="y">1962</span><p><b>Silent</b>: the annexation goes unanswered</p></div>
+      <div class="r bad step" data-s="4"><span class="y">2008</span><p><b>Pushed out</b>: UNMEE leaves the border</p></div>
+      <div class="r bad step" data-s="5"><span class="y">2021</span><p><b>Blocked</b>: no resolution, vetoes in the wings</p></div>
+      <div class="r bad step" data-s="6"><span class="y">2023</span><p><b>Drops</b> its own war-crimes inquiry</p></div>
+      <div class="r bad step" data-s="7"><span class="y">2026</span><p><b>Two letters</b>, two closed meetings, no product</p></div>
+    </div>
+    <div class="vo step" data-s="8">The UN <b>blesses deals it does not guarantee</b>.</div>
+    <script type="application/json" class="scene">[
+      {"reset":true,"view":"world","frame":"full","dim":0.65},
+      {"table":{"at":{"x":0.5,"y":0.62},"title":"Every round · who guarantees the deal?","seats":[{"who":"abiy","label":"Addis"},{"who":"debretsion","label":"TPLF"},{"who":"isaias","label":"Eritrea"},{"who":"fano","label":"Fano"},{"empty":true,"hl":true,"label":"Guarantor?"}]}},
+      {"table":null,"tokens":[{"id":"guterres","at":{"x":0.86,"y":0.2},"big":true}]},
+      {},{},{},{},{},{}
+    ]</script>
+    <aside class="notes">
+      Course lens (Lectures 3, 6, 7: UN–regional cooperation, spoilers).
+      SAY (table): "In every round one chair stayed empty, not Eritrea's, not Fano's: the guarantor's. Who makes the parties keep the deal?" (click) "The UN has been in this story since 1950, and never decisive."
+      Rows: "1950 it draws the line. 1962 silent. 2008 its peacekeepers are pushed out. 2021: no resolution; China, Russia and India blocked a press statement, the African members deferred to the AU, and Ethiopia hosts the AU and is a top troop contributor. 2023: the Human Rights Council lets its own inquiry, ICHREE, lapse after it found starvation used as a weapon. October 2026: Ethiopia writes invoking self-defence, Article 51; Eritrea asks for Chapter VII; two closed meetings, nothing.
+      On 9 October Guterres called for an immediate cessation of hostilities and offered his good offices. The UN blesses deals it does not guarantee: the guarantor's chair stays empty, every time."
+    </aside>
+  </section>
+
+  <section class="slide narrow" id="concl" data-at="27.6" data-title="Conclusions" data-cycle>
+    <div class="eyebrow"><span>Part 9</span><span class="act">Conclusions</span></div>
+    <h2>What we<br>conclude</h2>
+    <div class="trap2">
+      <div class="it step" data-s="1"><h4><span>1 ·</span> The pattern</h4><p class="step" data-s="1" data-u="2">Many nations, no sea, mistrust, empty chairs. In 2026 all four are still in place.</p></div>
+      <div class="it step" data-s="2"><h4><span>2 ·</span> The region</h4><p class="step" data-s="2" data-u="3">Tigray is one front of a Red Sea contest. Patrons back clients on every side.</p></div>
+      <div class="it red step" data-s="3"><h4><span>3 ·</span> The stake</h4><p class="step" data-s="3" data-u="4">Bab el-Mandeb, the Nile, the Gulf's last exit. Outsiders want a quiet strait, not a settled Tigray.</p></div>
+    </div>
+    <div class="vo step" data-s="4">Tigray cannot be read <b>without its neighbours</b>.</div>
+    <script type="application/json" class="scene">[
+      {"reset":true,"view":"redseaS","frame":"right","countries":{"Ethiopia":"fed","Eritrea":"eri"},"fillOpacity":0.25,"regions":1,"regionFill":{"Tigray":"tig"},"regionOpacity":0.5},
+      {"cycle":{"n":"2026","title":"all four still in place","on":[1,2,3,4]}},
+      {"tokens":[{"id":"mbz","at":[46.0,20.6],"small":true},{"id":"sisi","at":[33.4,20.6],"small":true}],
+       "arrows":[{"id":"u","from":"@mbz","to":"addis","kind":"support","color":"flag:uae","bend":-0.1},{"id":"e","from":"@sisi","to":"asmara","kind":"support","color":"flag:egypt","bend":0.1}],"markers":["addis","asmara"]},
+      {"tokens":[],"arrows":[],"sea":true,"markers":["babelmandeb","gerd","yanbu"],"pulse":["babelmandeb","gerd"]},
+      {"pulse":[],"dim":0.3}
+    ]</script>
+    <aside class="notes">
+      Three conclusions, one sentence each. Do not add new facts here.
+      SAY: "Three conclusions.
+      One, the pattern: many nations, no sea, mistrust, empty chairs. In 2026 all four are still in place. Nothing in the current war removes any of them.
+      Two, the region: Tigray is one front of a wider Red Sea contest. Outside patrons back clients on every side: the Emirates behind Addis, Egypt behind Asmara, and the rebels supplied through the neighbours. Kimaita's conclusion in the HORN Bulletin: competitive Gulf interventions more often fragment domestic politics and weaken regional mechanisms than build peace.
+      Three, the stake: Bab el-Mandeb, the Nile, and the Gulf's last exit while Hormuz is shut. Outsiders want a quiet strait, not necessarily a settled Tigray.
+      So Tigray cannot be read without its neighbours."
+    </aside>
+  </section>
+
+  <section class="slide narrow" id="research" data-at="28.3" data-title="An open question">
+    <div class="eyebrow"><span>Part 9</span><span class="act">Not a solution: a research question</span></div>
+    <h2>An open<br>question</h2>
+    <p class="quote step" data-s="1" style="font-size:42px">Can a landlocked state of many nations make a peace that leaves <em>no armed actor outside</em>?</p>
+    <p class="lede step" data-s="2" data-u="3"><span class="k">A hypothesis</span>Every armed actor at the table, the patrons as <em>guarantors</em>.</p>
+    <p class="lede step" data-s="3" data-u="99"><span class="k">Leads to test</span>Shared corridors (Woldemariam). Real federalism (Abbink). The AU in the lead (Kimaita).</p>
+    <div class="vo step" data-s="4">And the price: <b>is the map negotiable?</b></div>
+    <script type="application/json" class="scene">[
+      {"reset":true,"view":"ethiopia","frame":"right","regions":1,"regionFill":{"Tigray":"tig","Amhara":"amh","Oromia":"lichen","Somali":"sky","Afar":"gold"},"regionOpacity":0.3,"dim":0.35},
+      {},
+      {"table":{"at":{"x":0.74,"y":0.5},"title":"Hypothesis: every chair filled","seats":[{"who":"abiy","label":"Addis"},{"who":"debretsion","label":"TPLF"},{"who":"isaias","label":"Eritrea"},{"who":"fano","label":"Amhara"},{"who":"ola","label":"Oromo"}]}},
+      {"table":null,"dim":0,"zones":1,"zoneHatch":{"Western":"oxide"},"labels":[{"text":"special status?","at":[36.4,14.6],"color":"oxide"}],
+       "arrows":[{"id":"cor","from":"addis","to":"assab","kind":"support","color":"sky","label":"a shared corridor?","labelAt":0.6,"bend":-0.2}],"markers":["addis","assab","djibouti"]},
+      {"labels":[],"dim":0.3}
+    ]</script>
+    <aside class="notes">
+      Humble on purpose: we have not studied this enough to prescribe. Offer a question and leads.
+      SAY: "We do not want to come with a solution; we have not studied enough to be that confident. What we can offer is a research question:
+      Can a landlocked state of many nations make a peace that leaves no armed actor outside, and what would it cost?
+      One hypothesis worth testing: every armed actor at the table, Addis, the TPLF, Eritrea, the Amhara, the Oromo, with the outside patrons not behind the curtain but on the record as guarantors. The honest price: Ethiopia's territorial integrity would become, de facto, negotiable: a status for Western Tigray, Article 39 taken seriously.
+      And three leads from the literature: Woldemariam's corridor diplomacy and 'cooperative sovereignty', joint port and corridor authorities anchored in UNCLOS Part X and the African free trade area; Abbink's federation that works without one party holding the key; and Kimaita's call for the AU and IGAD to lead, instead of the Gulf.
+      A question for the next years, not for one seminar. Which brings us back to 1969."
+    </aside>
+  </section>
+
+  <section class="slide vote quiz-slide" id="loop" data-at="29.2" data-title="Debate · one state or many nations?" data-reveal="0" data-reveal-at="99">
+    <div class="eyebrow"><span>Debate</span><span class="act">Back to 1969</span></div>
+    <p class="q">One state, or many nations?</p>
+    <div class="opts">
+      <div class="opt"><span class="bar"></span><span class="l">A</span><span>One state: integrity first, restore the centre</span><span class="n"></span></div>
+      <div class="opt"><span class="bar"></span><span class="l">B</span><span>Abbink's federation, but with real democracy</span><span class="n"></span></div>
+      <div class="opt"><span class="bar"></span><span class="l">C</span><span>A union of nations that may leave (Art. 39)</span><span class="n"></span></div>
+      <div class="opt"><span class="bar"></span><span class="l">D</span><span>Settle the sea first, then the map</span><span class="n"></span></div>
+    </div>
+    <p class="hint step">Hands up, then argue: who should sit at the table, and who pays if it breaks?</p>
+    <script type="application/json" class="scene">[
+      {"reset":true,"view":"ethiopia","frame":"right","regions":1,"regionFill":{"Tigray":"tig","Amhara":"amh","Oromia":"lichen","Somali":"sky","Afar":"gold","SNNPR":"rose","Beneshangul Gumu":"teal","Gambela":"violet"},"regionOpacity":0.35,"dim":0.72}
+    ]</script>
+    <aside class="notes">
+      Close the loop. Hands up, count with keys 1–4 (0 resets), then open the debate.
+      SAY: "In 1969 a student asked: is Ethiopia one nation or a dozen? In 1995 the constitution answered with Article 39. In 2026 the guns are still answering. So, your turn: one state, or many nations?
+      A: one state; territorial integrity first, restore the centre. B: Abbink's answer: keep the federation, but make it democratic so it does not need one party holding the key. C: a union of nations that may really leave. D: none of that is possible until the sea is settled; regional deal first.
+      Hands up." Count. Then: "Who should sit at the table, and who pays if it breaks?"
+      Follow-ups if the room is quiet: Should Eritrea have been forced to the table in Pretoria? Is 'African solutions to African problems' a strength, or cover for a paralysed Security Council?
+    </aside>
+  </section>
+
+  <section class="slide" id="thanks" data-at="31.2" data-title="Thank you · sources">
+    <div class="eyebrow"><span>Thank you</span><span class="act">Sources</span></div>
+    <h2 style="font-size:100px">Thank you</h2>
+    <div class="sources">
+      <p>Abbink, J. (2011). Ethnic-based federalism and ethnicity in Ethiopia: reassessing the experiment after 20 years. <i>J. of Eastern African Studies</i> 5(4), 596–618.</p>
+      <p>Woldemariam, G. A. (2026). Landlocked geopolitics and peacebuilding: rethinking Ethiopia–Eritrea relations. <i>The HORN Bulletin</i> IX(1), 1–10.</p>
+      <p>Kimaita, S. N. (2026). Conflict by proxy: Gulf rivalries and strategic influence in the Horn of Africa. <i>The HORN Bulletin</i> IX(1), 19–27.</p>
+      <p>de Waal, A. (2015). <i>The Real Politics of the Horn of Africa</i>. Polity.</p>
+      <p>Stedman, S. J. (1997). Spoiler Problems in Peace Processes. <i>International Security</i> 22(2).</p>
+      <p>Weldemichael, A. T. (2024). On the Ethiopia–Eritrea rapprochement of 2018.</p>
+      <p>AU (2022). Agreement for Lasting Peace through a Permanent Cessation of Hostilities, Pretoria.</p>
+      <p>Rift Valley Institute (2026). Tigray after Pretoria. · International Crisis Group (2019, 2026).</p>
+      <p>OHCHR &amp; EHRC (2021) · ICHREE (2022–23) · EEAS · Suez Canal Authority via Reuters/AP (2025).</p>
+    </div>
+    <script type="application/json" class="scene">[
+      {"reset":true,"view":"tigray","frame":"right","regions":1,"zones":1,"regionFill":{"Tigray":"tig"},"regionOpacity":0.4,"dim":0.8}
+    ]</script>
+    <aside class="notes">
+      Thank the room; hand over to Gergő or open questions.
+    </aside>
+  </section>
+
+  <div id="hud"><span id="count">01 / 01</span><div id="progress"><i></i></div><span id="clock">00:00</span></div>
+  <div id="help" hidden>
+    <b>→ / space</b> next step<br><b>←</b> back<br><b>↑ ↓</b> previous / next slide<br><b>P</b> presenter window<br><b>O</b> overview<br><b>F</b> fullscreen<br><b>B</b> black screen<br><b>T</b> pause timer · <b>R</b> reset<br><b>1–4</b> count votes · <b>0</b> reset<br><b>G</b> go to slide<br><b>H</b> this help
+  </div>
+</div>
+</div>
+<div id="overview"><h2>All slides</h2><div class="grid"></div><p class="hint">Click a slide to jump · O or Esc to close</p></div>
+
+<script src="vendor/d3.min.js"></script>
+<script src="vendor/topojson-client.min.js"></script>
+<script src="vendor/gsap.min.js"></script>
+<script src="vendor/qrcode.js"></script>
+<script src="data/world.js"></script>
+<script src="data/ethiopia.js"></script>
+<script src="js/flags.js?v=1793143721"></script>
+<script src="js/places.js?v=1793172579"></script>
+<script src="js/people.js?v=1793172579"></script>
+<script src="js/config.js?v=1793143483"></script>
+<script src="js/scene.js?v=1793188620"></script>
+<script src="js/deck2.js?v=1793179236"></script>
+</body>
+</html>

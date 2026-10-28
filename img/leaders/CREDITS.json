@@ -1,0 +1,222 @@
+{
+ "haile_selassie": {
+  "title": "Haile Selassie",
+  "file": "haile_selassie.jpg",
+  "bytes": 46030,
+  "source": "Haile_Selassie_in_full_dress_(3x4_cropped).jpg",
+  "license": "Public domain",
+  "artist": "unknown; according to [1] and [2] an official portrait of which b/w copies were distributed by the Ethiopian government",
+  "page": "https://commons.wikimedia.org/wiki/File:Haile_Selassie_in_full_dress_(3x4_cropped).jpg"
+ },
+ "mengistu": {
+  "title": "Mengistu Haile Mariam",
+  "file": "mengistu.jpg",
+  "bytes": 52830,
+  "source": "Mengistu_Haile_Mariam_official_portrait,_1977-1978.jpg",
+  "license": "Public domain",
+  "artist": "Unknown authorUnknown author",
+  "page": "https://commons.wikimedia.org/wiki/File:Mengistu_Haile_Mariam_official_portrait,_1977-1978.jpg"
+ },
+ "meles": {
+  "title": "Meles Zenawi",
+  "file": "meles.jpg",
+  "bytes": 35511,
+  "source": "Meles_Zenawi_-_World_Economic_Forum_Annual_Meeting_2012.jpg",
+  "license": "CC BY-SA 2.0",
+  "artist": "World Economic Forum",
+  "page": "https://commons.wikimedia.org/wiki/File:Meles_Zenawi_-_World_Economic_Forum_Annual_Meeting_2012.jpg"
+ },
+ "isaias": {
+  "title": "Isaias Afwerki",
+  "file": "isaias.jpg",
+  "bytes": 55816,
+  "source": "Isaias_Afwerki_2024_(cropped).jpg",
+  "license": "Attribution",
+  "artist": "Quirinale (Francesco Ammendola and Paolo Giandotti)",
+  "page": "https://commons.wikimedia.org/wiki/File:Isaias_Afwerki_2024_(cropped).jpg"
+ },
+ "abiy": {
+  "title": "Abiy Ahmed",
+  "file": "abiy.jpg",
+  "bytes": 28274,
+  "source": "Prime_Minister_of_Ethiopia_Abiy_Ahmed_Ali_(cropped).jpg",
+  "license": "Public domain",
+  "artist": "Ethiopia Prime Minister's Office",
+  "page": "https://commons.wikimedia.org/wiki/File:Prime_Minister_of_Ethiopia_Abiy_Ahmed_Ali_(cropped).jpg"
+ },
+ "debretsion": {
+  "title": "Debretsion Gebremichael",
+  "file": "debretsion.jpg",
+  "bytes": 37544,
+  "source": "Debretsion_Gebremichael_in_2014.jpg",
+  "license": "CC BY 2.0",
+  "artist": "ITU Pictures from Geneva, Switzerland",
+  "page": "https://commons.wikimedia.org/wiki/File:Debretsion_Gebremichael_in_2014.jpg"
+ },
+ "getachew": {
+  "title": "Getachew Reda",
+  "file": "getachew.png",
+  "bytes": 169465,
+  "source": "Getachew_Reda_(VOA_Tigrigna,_September_2023),_1.png",
+  "license": "Public domain",
+  "artist": "Voice of America Tigrigna",
+  "page": "https://commons.wikimedia.org/wiki/File:Getachew_Reda_(VOA_Tigrigna,_September_2023),_1.png"
+ },
+ "tadesse": {
+  "title": "Tadesse Werede",
+  "missing": true
+ },
+ "sisi": {
+  "title": "Abdel Fattah el-Sisi",
+  "file": "sisi.jpg",
+  "bytes": 28429,
+  "source": "AbdelFattah_Elsisi_(cropped).jpg",
+  "license": "CC BY 4.0",
+  "artist": "Ministry of Communications and Information Technology in Egypt",
+  "page": "https://commons.wikimedia.org/wiki/File:AbdelFattah_Elsisi_(cropped).jpg"
+ },
+ "mbs": {
+  "title": "Mohammed bin Salman",
+  "file": "mbs.jpg",
+  "bytes": 45102,
+  "source": "الصورة_الرسمية_للأمير_محمد_بن_سلمان_بن_عبدالعزيز_آل_سعود_(مقصوصة).jpg",
+  "license": "CC BY-SA 4.0",
+  "artist": "وكالة الأنباء السعودية",
+  "page": "https://commons.wikimedia.org/wiki/File:%D8%A7%D9%84%D8%B5%D9%88%D8%B1%D8%A9_%D8%A7%D9%84%D8%B1%D8%B3%D9%85%D9%8A%D8%A9_%D9%84%D9%84%D8%A3%D9%85%D9%8A%D8%B1_%D9%85%D8%AD%D9%85%D8%AF_%D8%A8%D9%86_%D8%B3%D9%84%D9%85%D8%A7%D9%86_%D8%A8%D9%86_%D8%B9%D8%A8%D8%AF%D8%A7%D9%84%D8%B9%D8%B2%D9%8A%D8%B2_%D8%A2%D9%84_%D8%B3%D8%B9%D9%88%D8%AF_(%D9%85%D9%82%D8%B5%D9%88%D8%B5%D8%A9).jpg"
+ },
+ "mbz": {
+  "title": "Mohamed bin Zayed Al Nahyan",
+  "file": "mbz.jpg",
+  "bytes": 35076,
+  "source": "Mohamed_bin_Zayed_Al_Nahyan_-_2024_(cropped).jpg",
+  "error": "HTTP Error 429: Too Many Requests"
+ },
+ "erdogan": {
+  "title": "Recep Tayyip Erdoğan",
+  "file": "erdogan.jpg",
+  "bytes": 32215,
+  "source": "Turkish_President_Recep_Tayyip_Erdoğan_in_January_2024_(cropped).jpg",
+  "error": "HTTP Error 429: Too Many Requests"
+ },
+ "mojtaba": {
+  "title": "Mojtaba Khamenei",
+  "file": "mojtaba.jpg",
+  "bytes": 32508,
+  "source": "Portrait_of_Mojtaba_Khamenei.jpg",
+  "error": "HTTP Error 429: Too Many Requests"
+ },
+ "houthi": {
+  "title": "Abdul-Malik al-Houthi",
+  "file": "houthi.jpg",
+  "bytes": 21966,
+  "source": "عبدالملک_حوثی.jpg",
+  "error": "HTTP Error 429: Too Many Requests",
+  "license": "CC BY 2.0",
+  "artist": "Wikishia",
+  "page": "https://commons.wikimedia.org/wiki/File:%D8%B9%D8%A8%D8%AF%D8%A7%D9%84%D9%85%D9%84%DA%A9_%D8%AD%D9%88%D8%AB%DB%8C.jpg"
+ },
+ "burhan": {
+  "title": "Abdel Fattah al-Burhan",
+  "file": "burhan.jpg",
+  "bytes": 39120,
+  "source": "Abdel_Fattah_al-Burhan_in_April_2025_(cropped).jpg",
+  "error": "HTTP Error 429: Too Many Requests",
+  "license": "CC BY 4.0",
+  "artist": "Press Service of the President of the Republic of Azerbaijan",
+  "page": "https://commons.wikimedia.org/wiki/File:Abdel_Fattah_al-Burhan_in_April_2025_(cropped).jpg"
+ },
+ "hemedti": {
+  "title": "Mohamed Hamdan Dagalo",
+  "file": "hemedti.jpg",
+  "bytes": 25699,
+  "source": "Mohamed_Hamdan_Dagalo_2022_(cropped).jpg",
+  "error": "HTTP Error 429: Too Many Requests",
+  "license": "CC BY 4.0",
+  "artist": "Russian Government",
+  "page": "https://commons.wikimedia.org/wiki/File:Mohamed_Hamdan_Dagalo_2022_(cropped).jpg"
+ },
+ "trump": {
+  "title": "Donald Trump",
+  "file": "trump.jpg",
+  "bytes": 23749,
+  "source": "Official_Presidential_Portrait_of_President_Donald_J._Trump_(2025).jpg",
+  "error": "HTTP Error 429: Too Many Requests",
+  "license": "Public domain",
+  "artist": "Daniel Torok",
+  "page": "https://commons.wikimedia.org/wiki/File:Official_Presidential_Portrait_of_President_Donald_J._Trump_(2025).jpg"
+ },
+ "putin": {
+  "title": "Vladimir Putin",
+  "file": "putin.jpg",
+  "bytes": 32420,
+  "source": "Vladimir_Putin_(2026_02_23)_(cropped).jpg",
+  "error": "HTTP Error 429: Too Many Requests",
+  "license": "CC BY 4.0",
+  "artist": "Kremlin.ru",
+  "page": "https://commons.wikimedia.org/wiki/File:Vladimir_Putin_(2026_02_23)_(cropped).jpg"
+ },
+ "xi": {
+  "title": "Xi Jinping",
+  "file": "xi.jpg",
+  "bytes": 35773,
+  "source": "Prime_Minister_Keir_Starmer_visits_China_(55066713683)_(cropped+angle).jpg",
+  "error": "HTTP Error 429: Too Many Requests",
+  "license": "CC BY 4.0",
+  "artist": "Simon Dawson / No 10 Downing Street",
+  "page": "https://commons.wikimedia.org/wiki/File:Prime_Minister_Keir_Starmer_visits_China_(55066713683)_(cropped%2Bangle).jpg"
+ },
+ "guterres": {
+  "title": "António Guterres",
+  "file": "guterres.jpg",
+  "bytes": 47071,
+  "source": "Beate_Meinl-Reisinger_New-York_visit_-_March_2025_-_MGR8622_(cropped_1).jpg",
+  "error": "HTTP Error 429: Too Many Requests",
+  "license": "CC BY 2.0",
+  "artist": "Österreichisches Außenministerium",
+  "page": "https://commons.wikimedia.org/wiki/File:Beate_Meinl-Reisinger_New-York_visit_-_March_2025_-_MGR8622_(cropped_1).jpg"
+ },
+ "obasanjo": {
+  "title": "Olusegun Obasanjo",
+  "file": "obasanjo.jpg",
+  "bytes": 43134,
+  "source": "Olusegun_Obasanjo_DD-SC-07-14396-cropped.jpg",
+  "error": "HTTP Error 429: Too Many Requests",
+  "license": "Public domain",
+  "artist": "Helene C. Stikkel",
+  "page": "https://commons.wikimedia.org/wiki/File:Olusegun_Obasanjo_DD-SC-07-14396-cropped.jpg"
+ },
+ "youssouf": {
+  "title": "Mahmoud Ali Youssouf",
+  "file": "youssouf.jpg",
+  "bytes": 30168,
+  "source": "06.11.2025_–_Recepção_Oficial_dos_Chefes_de_Delegação_da_Cúpula_do_Clima_(54905196147)_(cropped).jpg",
+  "error": "HTTP Error 429: Too Many Requests",
+  "license": "CC BY-SA 4.0",
+  "artist": "Lula Oficial",
+  "page": "https://commons.wikimedia.org/wiki/File:06.11.2025_%E2%80%93_Recep%C3%A7%C3%A3o_Oficial_dos_Chefes_de_Delega%C3%A7%C3%A3o_da_C%C3%BApula_do_Clima_(54905196147)_(cropped).jpg"
+ },
+ "kallas": {
+  "title": "Kaja Kallas",
+  "file": "kallas.jpg",
+  "bytes": 34885,
+  "source": "Kaja_Kallas,_High_Representative_of_the_Union,_and_Vice-President_of_the_European_Commission_(3x4_cropped).jpg",
+  "error": "HTTP Error 429: Too Many Requests",
+  "license": "CC BY 4.0",
+  "artist": "Aurore Martignoni / European Union",
+  "page": "https://commons.wikimedia.org/wiki/File:Kaja_Kallas,_High_Representative_of_the_Union,_and_Vice-President_of_the_European_Commission_(3x4_cropped).jpg"
+ },
+ "hsm": {
+  "title": "Hassan Sheikh Mohamud",
+  "file": "hsm.jpg",
+  "bytes": 25240,
+  "source": "His_Excellency_President_Hassan_Sheikh_Mohamud.jpg",
+  "error": "HTTP Error 429: Too Many Requests"
+ },
+ "mussolini": {
+  "title": "Benito Mussolini",
+  "file": "mussolini.jpg",
+  "bytes": 35430,
+  "source": "Mussolini_mezzobusto.jpg",
+  "error": "HTTP Error 429: Too Many Requests"
+ }
+}

@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Flags Test</title>
+<style>
+  :root { --bg: #14110f; --card: #221d1a; --text: #f2ebe4; --muted: #a89b8f; --line: #3a322c; }
+  * { box-sizing: border-box; }
+  body { margin: 0; padding: 24px 16px; background: var(--bg); color: var(--text); font-family: Arial, sans-serif; }
+  h1 { font-size: 20px; margin: 0 0 4px; }
+  p.meta { color: var(--muted); margin: 0 0 20px; font-size: 13px; }
+  .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 16px; }
+  .card { background: var(--card); border: 1px solid var(--line); border-radius: 8px; padding: 10px; }
+  .card img { display: block; width: 100%; aspect-ratio: 3 / 2; box-shadow: 0 0 0 1px rgba(255,255,255,0.12); }
+  .key { font-family: Menlo, monospace; font-size: 13px; margin-top: 8px; display: flex; align-items: center; gap: 6px; }
+  .swatch { width: 12px; height: 12px; border-radius: 2px; flex: none; }
+  .name { color: var(--muted); font-size: 12px; margin-top: 3px; }
+</style>
+</head>
+<body>
+<h1>Flag artwork check</h1>
+<p class="meta" id="meta"></p>
+<div class="grid" id="grid"></div>
+<script src="js/flags.js"></script>
+<script>
+  const grid = document.getElementById('grid');
+  const keys = Object.keys(window.FLAGS);
+  document.getElementById('meta').textContent = keys.length + ' flags from js/flags.js (img src = flagDataURI(key))';
+  for (const key of keys) {
+    const f = window.FLAGS[key];
+    const card = document.createElement('div');
+    card.className = 'card';
+    const img = document.createElement('img');
+    img.src = window.flagDataURI(key);
+    img.alt = f.name;
+    const k = document.createElement('div');
+    k.className = 'key';
+    const sw = document.createElement('span');
+    sw.className = 'swatch';
+    sw.style.background = f.color;
+    k.append(sw, document.createTextNode(key + '  ' + f.color));
+    const n = document.createElement('div');
+    n.className = 'name';
+    n.textContent = f.name;
+    card.append(img, k, n);
+    grid.append(card);
+  }
+</script>
+</body>
+</html>
