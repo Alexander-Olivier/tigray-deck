@@ -295,3 +295,14 @@
 .vs td { font: 400 30px/1.25 var(--f-serif); color: var(--sand); padding: 14px; border-bottom: 1px solid var(--line); vertical-align: top; background: rgba(21,17,14,.82); }
 .vs td.k { font: 600 18px/1.25 var(--f-mono); letter-spacing: .12em; text-transform: uppercase; color: var(--sand-dim); width: 118px; }
 .vs tr.step { transform: none; }
+
+/* the cover */
+.cover { gap: 34px; }
+.cover .titleblock { display: flex; flex-direction: column; gap: 6px; }
+.cover .geez { font-size: 104px; color: var(--ochre); line-height: 1; }
+.cover h1 { font-size: 290px; line-height: .8; }
+.cover .sub { margin: 0; font: 400 40px/1.28 var(--f-serif); color: var(--sand); text-wrap: pretty; }
+.cover .sub em { color: var(--ochre); font-style: normal; }
+.cover .meta { display: grid; grid-template-columns: 1fr 1fr; gap: 22px 40px; border-top: 2px solid var(--ochre); padding-top: 24px; }
+.cover .meta span { display: block; font: 600 17px/1 var(--f-mono); letter-spacing: .14em; text-transform: uppercase; color: var(--ochre); margin-bottom: 9px; }
+.cover .meta b { font: 500 26px/1.2 var(--f-sans); color: var(--sand); }
